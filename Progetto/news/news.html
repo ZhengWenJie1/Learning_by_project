@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News - Formazione</title>
+<link rel="stylesheet" href="news_addons/news_css/news.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="navbar">
+    <a href="../home.html" class="logo">
+      <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
+      <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+    </a>
+    <nav>
+      <a href="../home.html">CORSO</a>
+      <a href="../home.html">ARCH/FORMAZIONE</a>
+      <a href="news.html" class="active">BLOG</a>
+      <a href="../home.html">CONTATTI</a>
+    </nav>
+  </header>
+
+  <!-- BANNER PLACEHOLDER -->
+  <div class="banner"></div>
+
+  <!-- CONTENUTO NEWS (popolato dal JSON) -->
+  <section class="news-content">
+    <div class="news-main">
+      <span class="tag">news</span>
+      <h1 id="newsTitolo"></h1>
+      <p id="newsDescrizione" class="placeholder-text"></p>
+      <a id="newsLinkEsterno" href="#" target="_blank" rel="noopener" class="link-corso">Vai alle news complete &rarr;</a>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Contatti</h3>
+      <p id="sidebarContatti"></p>
+      <h3>Seguici</h3>
+      <p id="sidebarSocial"></p>
+    </aside>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
+  </footer>
+
+  <script src="news_addons/news_js/news.js"></script>
+</body>
+</html>
