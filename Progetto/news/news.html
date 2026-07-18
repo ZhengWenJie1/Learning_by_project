@@ -3,42 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>News - Formazione</title>
-<link rel="stylesheet" href="news_addons/news_css/news.css">
+<title>Blog e News - Dinamiche Verticali Formazione</title>
+<link rel="stylesheet" href="news_css/news.css">
 </head>
 <body>
 
-  <!-- HEADER / NAV -->
   <header class="navbar">
-    <a href="../home.html" class="logo">
+    <a href="../home/home.html" class="logo">
       <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
       <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
     </a>
     <nav>
-      <a href="../home.html">CORSO</a>
-      <a href="../home.html">ARCH/FORMAZIONE</a>
+      <a href="../home/home.html">FORMAZIONE</a>
+      <a href="../home/home.html#corsi">CORSI</a>
+      <a href="../home/home.html#calendario">CALENDARIO</a>
       <a href="news.html" class="active">BLOG</a>
-      <a href="../home.html">CONTATTI</a>
+      <a href="../contatti/contatti.html">CONTATTI</a>
     </nav>
   </header>
 
-  <!-- BANNER PLACEHOLDER -->
-  <div class="banner"></div>
+  <div class="banner">
+    <h1>News e aggiornamenti</h1>
+    <p>Tutte le novità dal mondo della formazione in quota, su fune e in sicurezza.</p>
+  </div>
 
-  <!-- CONTENUTO NEWS (popolato dal JSON) -->
   <section class="news-content">
     <div class="news-main">
       <span class="tag">news</span>
       <h1 id="newsTitolo"></h1>
       <p id="newsDescrizione" class="placeholder-text"></p>
-      <a id="newsLinkEsterno" href="#" target="_blank" rel="noopener" class="link-corso">Vai alle news complete &rarr;</a>
+      <a id="newsLinkEsterno" href="#" target="_blank" rel="noopener" class="link-corso">Vai al portale news completo &rarr;</a>
+
+      <div class="news-grid" id="newsGrid"></div>
     </div>
 
     <aside class="sidebar">
       <h3>Contatti</h3>
       <p id="sidebarContatti"></p>
       <h3>Seguici</h3>
-      <p id="sidebarSocial"></p>
+      <div id="sidebarSocial"></div>
     </aside>
   </section>
 
@@ -46,6 +49,6 @@
     <p>&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
   </footer>
 
-  <script src="news_addons/news_js/news.js"></script>
+  <script src="news_js/news.js"></script>
 </body>
 </html>

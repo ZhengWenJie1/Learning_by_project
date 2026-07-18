@@ -1,0 +1,822 @@
+{
+  "sito": {
+    "url": "https://www.dvformazione.it",
+    "nome": "Dinamiche Verticali Formazione",
+    "titolo": "Dinamiche Verticali Formazione",
+    "descrizione_breve": "Unico ed esclusivo Petzl Technical Institute (PTI) in Italia; centro di formazione certificato anche IRATA e GWO per lavori in quota, accesso su fune, soccorso e DPI anticaduta",
+    "piva": "11991170017",
+    "sviluppatore_sito": {
+      "nome": "Bottleneck",
+      "url": "https://www.bottleneck.it/"
+    },
+    "logo": "https://www.dvformazione.it/img/logo-dinamiche-verticali-formazione.svg",
+    "meta": {
+      "og_image": "https://dvformazione.it/img/certificazione-petzl-dinamiche-verticali-formazione.jpg",
+      "theme_color": "#ffffff",
+      "favicon_tile": "https://www.dvformazione.it/img/favicon/ms-icon-144x144.png"
+    }
+  },
+  "contatti": {
+    "referente": {
+      "nome": "Valentina Stancanelli",
+      "ruolo": "Coordinatrice logistica formazione",
+      "foto": "https://www.dvformazione.it/img/valentina-stancanelli-coordinatrice-logistica-formazione-thumb.jpg"
+    },
+    "telefono": "+39 011 27 32 500",
+    "orari_telefono": "08:30-17:30, Lun-Ven",
+    "email": "formazione@petzl.it",
+    "indirizzo": {
+      "via": "Via G. Battista Feroggio, 54",
+      "cap": "10151",
+      "citta": "Torino",
+      "regione": "Piemonte",
+      "paese": "Italia",
+      "mappa": "https://goo.gl/maps/UW6Yvw7zkpCn76Gb9"
+    },
+    "note_posizione": [
+      "A 20 minuti dall'aeroporto Torino Caselle",
+      "A 10 minuti dalla stazione ferroviaria Torino Porta Nuova"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/dinamicheverticalisrl",
+      "instagram": "https://www.instagram.com/dinamiche_verticali/",
+      "linkedin": "https://www.linkedin.com/company/dinamiche-verticali-srl/",
+      "youtube": "https://www.youtube.com/@dvformazione"
+    },
+    "news_portal": "https://news.dvformazione.it/",
+    "pdf_offerta_formativa": "https://drive.google.com/file/d/1A3xa8z_NHaQaC1P1_cGAN-sK5H0qqQ9e/view?usp=drive_link"
+  },
+  "alloggi_convenzionati": [
+    {
+      "categoria": "Convenzionati",
+      "nome": "Holiday Inn Hotel",
+      "indirizzo": "Piazza Massaua n. 21, 10142 Torino",
+      "telefono": "011740187",
+      "fax": "0117727429",
+      "sito_web": "https://www.hiturin.it",
+      "email": "reservations@hiturin.it"
+    },
+    {
+      "categoria": "Convenzionati",
+      "nome": "Agriturismo La Sforzata - Da Mangiare",
+      "indirizzo": "Via Pianezza, 69, 10093 Collegno TO",
+      "telefono": "0114559880",
+      "sito_web": "https://www.lasforzata.com/site/",
+      "email": "info@lasforzata.com"
+    },
+    {
+      "categoria": "Altro nelle vicinanze",
+      "nome": "Cascina Marchesa",
+      "indirizzo": "Corso Regina Margherita 371/10, 10151 Torino TO",
+      "telefono": "0114553515",
+      "sito_web": "https://www.cascinamarchesaresort.com/",
+      "email": "info@cascinamarchesaresort.com",
+      "note": "Reception aperta 7:00-18:00, dopo le 18:00 chiavi ritirabili all'ingresso del Residence"
+    },
+    {
+      "categoria": "Altro nelle vicinanze",
+      "nome": "Residenza delle Alpi",
+      "indirizzo": "Via Privata Caselette 17, 10149 Torino TO",
+      "telefono": "0114553515",
+      "sito_web": "http://www.residenzadellealpi.it",
+      "email": "info@residenzadellealpi.it"
+    },
+    {
+      "categoria": "Altro nelle vicinanze",
+      "nome": "Vadalà Bed & Breakfast",
+      "indirizzo": "Via Pianezza 178B, 10151 Torino TO",
+      "telefono": "01173911686"
+    }
+  ],
+  "certificazioni": [
+    {
+      "nome": "PTI - Petzl Technical Institute",
+      "descrizione": "Unico ed esclusivo Petzl Technical Institute in Italia, abilitato e certificato per la distribuzione dei moduli Petzl Solution; centro di formazione certificato PTI dal 2017",
+      "pagina": "https://www.dvformazione.it/corsi-petzl-dinamiche-verticali.html",
+      "video_presentazione": "https://youtu.be/fWyU06ZlqrQ?si=JOelgntqT4iOB8KJ",
+      "video_embed": "https://www.youtube-nocookie.com/embed/_l28J0E18tQ?si=XfimI0KlOlXx1f7q",
+      "loghi": {
+        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
+        "footer": "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
+        "pagina_dedicata": "https://www.dvformazione.it/img/logo-petzl-thumb.png"
+      },
+      "mappa_rete_pti": "https://www.google.com/maps/d/embed?mid=1vJVLRRVXSGz6ai3UOAfSSFq7y1jK8oPQ&ll=45.32000612173584%2C8.032467455716196&z=9",
+      "destinatari": [
+        "Supervisori di persone che utilizzano DPI",
+        "Rappresentanti tecnici commerciali, organizzatori di test sui prodotti, rivenditori",
+        "Istituti Tecnici Petzl - Petzl Technical Partners, formatori della rete Petzl Solutions",
+        "Responsabile del controllo dei DPI contro le cadute dall'alto, gestori di flotte di DPI",
+        "Forze speciali (utilizzatori di elicotteri, unità tattiche)",
+        "Vigili del fuoco, rivenditori di prodotti antincendio e di soccorso",
+        "Società di noleggio DPI, supervisori attività, società e professionisti dell'arrampicata e dell'alpinismo, gestori di palestre, tracciatori di percorsi"
+      ],
+      "formatori": [
+        {
+          "nome": "Giuseppe Barucco",
+          "ruolo": "Formatore PTI - Guida Alpina",
+          "lingue": ["IT", "FR"],
+          "foto": "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore-thumb.jpg"
+        },
+        {
+          "nome": "Michele Perotti",
+          "ruolo": "Formatore PTI - Guida Alpina",
+          "lingue": ["IT", "EN", "FR"],
+          "foto": "https://www.dvformazione.it/img/formatori/michele-perotti-formatore-thumb.jpg"
+        },
+        {
+          "nome": "Alberto Fantone",
+          "ruolo": "Formatore PTI - Guida Alpina",
+          "lingue": ["IT", "FR"],
+          "foto": "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore-thumb.jpg"
+        },
+        {
+          "nome": "Luigi Gagliardi",
+          "ruolo": "Formatore PTI - Guida Alpina",
+          "lingue": ["IT", "EN"],
+          "foto": "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "IRATA - Industrial Rope Access Trade Association",
+      "descrizione": "Più importante e autorevole associazione al mondo per il lavoro e l'addestramento su doppia fune. Certificazione azienda membro IRATA con audit triennale",
+      "pagina": "https://www.dvformazione.it/corsi-irata-dinamiche-verticali.html",
+      "video_presentazione": "https://youtu.be/fWyU06ZlqrQ?si=JOelgntqT4iOB8KJ",
+      "video_embed": "https://www.youtube-nocookie.com/embed/M48wXaOpppU?si=8JOBQSSeBGUh4nFQ",
+      "loghi": {
+        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
+        "footer": "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
+        "pagina_dedicata": "https://www.dvformazione.it/img/logo-irata-thumb.png"
+      },
+      "livelli": [
+        {
+          "livello": "L1",
+          "descrizione": "Tecnico su fune capace di eseguire una serie di tecniche su fune sotto la supervisione di un Livello 3"
+        },
+        {
+          "livello": "L2",
+          "descrizione": "Tecnico su fune in grado di assolvere incarichi più complessi sotto la supervisione di un L3"
+        },
+        {
+          "livello": "L3",
+          "descrizione": "Tecnico su fune con esperienza, responsabile di progettare ed implementare procedure, metodi di lavoro e valutazioni del rischio"
+        }
+      ],
+      "formatori": [
+        {
+          "nome": "Diego Maltenti",
+          "ruolo": "IRATA Technical Authority, IRATA L3/i",
+          "lingue": ["IT", "EN"],
+          "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore-thumb.jpg"
+        },
+        {
+          "nome": "Franco Bignami",
+          "ruolo": "IRATA L3/i",
+          "lingue": ["IT"],
+          "foto": "https://www.dvformazione.it/img/formatori/franco-bignami-formatore-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "GWO - Global Wind Organisation",
+      "descrizione": "Standard creati dall'industria eolica per l'industria eolica. Centro certificato GWO da Aprile 2023, eroga i 5 moduli GWO",
+      "pagina": "https://www.dvformazione.it/gwo-formazione-certificazione.html",
+      "video_embed": "https://www.youtube-nocookie.com/embed/GYmPUpWDKA0?si=oq1n1SP02msdB5Dz",
+      "loghi": {
+        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
+        "footer": "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
+        "pagina_dedicata": "https://www.dvformazione.it/img/logo-gwo-thumb.png"
+      },
+      "moduli": [
+        "First Aid",
+        "Manual Handling",
+        "Fire Awareness",
+        "Working at Heights",
+        "Working at heights & Manual handling combined"
+      ],
+      "registrazione_idwinda": "https://winda.globalwindsafety.org/",
+      "formatori": [
+        {
+          "nome": "Diego Maltenti",
+          "ruolo": "Formatore GWO",
+          "lingue": ["IT", "EN"],
+          "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore-thumb.jpg"
+        }
+      ]
+    }
+  ],
+  "corsi": [
+    {
+      "id": "irata-l1-l2-l3",
+      "categoria": "IRATA",
+      "titolo": "Certificazione IRATA L1/L2/L3",
+      "url": "https://www.dvformazione.it/product/irata-certificazione-irata-l1-l2-l3",
+      "descrizione": "Irata è la più importante e autorevole associazione al mondo per il lavoro e l'addestramento su doppia fune. Certificarsi IRATA significa sottoporsi ad un addestramento completo ed intenso e ad un esame finale che se superato dà la possibilità di lavorare in sicurezza in tutto il mondo. Regolato dal TACS (Training Assessment and Certification scheme)",
+      "obiettivi": [
+        "Conoscere la normativa, utilizzare correttamente i DPI, valutare i rischi, realizzare ancoraggi, lavorare in sicurezza, saper effettuare soccorsi anche in ambienti ostili",
+        "Impiego nel settore eolico, oil & gas off shore, industria, petrolchimico e civile (circa 200.000 tecnici IRATA nel mondo)",
+        "Acquisire conoscenze e competenze per l'uso efficace dei DPI anticaduta e muoversi in sicurezza su corda",
+        "Ottenere una certificazione internazionale e mantenerla a scadenze regolari"
+      ],
+      "contenuti": "I contenuti della formazione cambiano in base ai livelli. Scrivere per maggiori informazioni.",
+      "destinatari": [
+        "Lavoratori che desiderano lavorare su fune e approfondire le competenze sui DPI anticaduta",
+        "Aziende che desiderano ampliare la propria gamma di servizi",
+        "Tecnici che devono mantenere la validità della loro certificazione"
+      ],
+      "prerequisiti": "Maggiorenni e in buono stato di salute",
+      "durata": "4 giorni + 1 giorno esame",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "1.000€+IVA",
+      "sessioni_prossime": ["31/08/2026", "21/09/2026", "19/10/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/6_sito-6-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/6_schermata-2023-06-14-alle-15-19-21.jpg"
+      ]
+    },
+    {
+      "id": "gwo-bst",
+      "categoria": "GWO",
+      "titolo": "GWO BST (FA+WAH+MH+FAW)",
+      "url": "https://www.dvformazione.it/product/gwo-gwo-bst-fa-wah-mh-faw-",
+      "descrizione": "Il Basic Safety Training nasce per garantire una formazione di base a tutti i tecnici che intendono intraprendere un percorso professionale nel settore eolico",
+      "obiettivi": [
+        "Consentire ai partecipanti di sostenere e prendersi cura di sé e degli altri nel settore eolico, con conoscenze di primo soccorso, lavoro in quota, movimentazione manuale, consapevolezza degli incendi e capacità di evacuazione/soccorso in emergenza"
+      ],
+      "contenuti": "Vedi dettaglio programmi FA; WAH; MH; FAW",
+      "destinatari": ["Tutti coloro che vogliono lavorare nel settore eolico"],
+      "prerequisiti": "Maggiorenni e in buono stato di salute",
+      "durata": "4 giorni",
+      "orario": "9.00-17.30",
+      "validita_attestato": "2 anni",
+      "quota_iscrizione": "1.100€+IVA",
+      "sessioni_prossime": ["19/10/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/20_sito-20-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/20_01-utilisation-de-lasap-par-grand-vent.jpg"
+      ]
+    },
+    {
+      "id": "pti-revisioni-periodiche",
+      "categoria": "PTI",
+      "titolo": "Revisioni Periodiche DPI Petzl",
+      "url": "https://www.dvformazione.it/product/pti-revisioni-periodiche-dpi-petzl",
+      "descrizione": "Attraverso questa formazione il candidato acquisirà conoscenze e capacità adeguate al fine di esaminare a fondo i DPI anticaduta, attraverso il protocollo d'ispezione PETZL",
+      "obiettivi": [
+        "Essere in grado di esaminare in modo approfondito i DPI anticaduta Petzl",
+        "Utilizzare correttamente il protocollo d'ispezione Petzl"
+      ],
+      "contenuti": [
+        "Valutazione dei rischi",
+        "Requisiti e normativa in vigore in materia di ispezione",
+        "Concetto di 'persona competente'",
+        "Nozioni delle responsabilità del datore di lavoro e dei verificatori",
+        "Azioni correttive principali del verificatore",
+        "Identificazione di difetti e danni che comportano la messa fuori servizio del DPI",
+        "Protocollo d'ispezione Petzl",
+        "Compilazione corretta della scheda d'ispezione"
+      ],
+      "destinatari": [
+        "Persone responsabili della gestione degli stock aziendali dei DPI",
+        "Persone responsabili delle ispezioni dei DPI",
+        "Proprietari e datori di lavoro",
+        "Utilizzatori di DPI anticaduta",
+        "Rivenditori DPI Petzl",
+        "Petzl Technical Partners"
+      ],
+      "prerequisiti": "Esperienza pratica significativa nel campo della verticalità e dei dispositivi per la protezione contro le cadute dall'alto",
+      "durata": "21 ore (3 giorni)",
+      "orario": "9.00-17.00",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "850€+IVA",
+      "sessioni_prossime": ["22/07/2026", "09/09/2026", "21/10/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/7_sito-10-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/7_schermata-2023-06-16-alle-15-54-53.jpg"
+      ]
+    },
+    {
+      "id": "pti-aggiornamento-revisioni",
+      "categoria": "PTI",
+      "titolo": "Aggiornamento Revisioni Periodiche DPI Petzl",
+      "url": "https://www.dvformazione.it/product/pti-aggiornamento-revisioni-periodiche-dpi-petzl",
+      "descrizione": "Mantenimento delle capacità e aggiornamento delle conoscenze per la verifica approfondita dei DPI contro le cadute dall'alto, nel ruolo di persona competente",
+      "obiettivi": [
+        "Verifica approfondita dei DPI Petzl secondo il protocollo",
+        "Individuazione di difetti o danni che comportano la messa fuori servizio del DPI",
+        "Compilazione corretta ed esaustiva delle schede di verifica"
+      ],
+      "contenuti": [
+        "Comprendere i cambiamenti legislativi e gli attuali requisiti per la verifica approfondita dei DPI contro le cadute dall'alto",
+        "Presentazione delle evoluzioni tecniche in materia di costruzione dei DPI",
+        "Scambio e condivisione delle esperienze dei partecipanti",
+        "Presentazione e corretto utilizzo del protocollo Petzl",
+        "Verifica prima dell'utilizzo, ispezioni speciali, verifica approfondita, segnali e sintomi, criteri per la messa fuori servizio"
+      ],
+      "destinatari": ["Persone designate responsabili delle verifiche approfondite dei DPI, che hanno già completato il modulo 'Revisioni Periodiche DPI Petzl'"],
+      "prerequisiti": "Esperienza pratica nel mondo della verticalità e delle attrezzature contro le cadute dall'alto; aver superato il modulo 'Revisioni Periodiche DPI Petzl'",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "275€+IVA",
+      "sessioni_prossime": ["21/07/2026", "08/09/2026", "13/10/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/8_sito-8-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/8_preview-01.jpg"
+      ]
+    },
+    {
+      "id": "pti-rivenditori-pro-1",
+      "categoria": "PTI",
+      "titolo": "Modulo Rivenditori PRO Liv. 1",
+      "url": "https://www.dvformazione.it/product/pti-modulo-rivenditori-pro-liv-1",
+      "descrizione": "Indirizzato a rivenditori e tecnici-commerciali specializzati nella vendita dei prodotti anticaduta PETZL, per approfondire le conoscenze tecnico-pratiche dei DPI anticaduta",
+      "obiettivi": [
+        "Capire i DPI dalla creazione alla vendita sul mercato",
+        "Conoscere le conseguenze di una caduta (approccio fisico)",
+        "Utilizzo e scelta dei DPI contro le cadute dall'alto in base all'ambiente e alla situazione di lavoro"
+      ],
+      "contenuti": [
+        "Comprendere i DPI dalla creazione alla vendita",
+        "Conoscere le conseguenze di una caduta",
+        "La legislazione (Europea ed Italiana)",
+        "Obbligo informativo e consigli per i rivenditori",
+        "Approccio delle principali precauzioni, analisi dei rischi",
+        "Gestione, manutenzione e stoccaggio dei DPI",
+        "Utilizzo e scelta dei DPI in base all'ambiente e alla situazione di lavoro"
+      ],
+      "destinatari": [
+        "Rivenditori specializzati nella vendita dei prodotti anticaduta Petzl",
+        "Tecnici-commerciali che vendono prodotti anticaduta Petzl",
+        "Petzl Technical Institute, Petzl Technical Partner"
+      ],
+      "prerequisiti": "Conoscenza dei prodotti della gamma anticaduta Petzl",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "275€+IVA",
+      "sessioni_prossime": ["22/09/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/9_sito-7-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/9_disegno-rev-pro-1.jpg"
+      ]
+    },
+    {
+      "id": "pti-rivenditori-pro-2",
+      "categoria": "PTI",
+      "titolo": "Modulo Rivenditori PRO Liv. 2",
+      "url": "https://www.dvformazione.it/product/pti-modulo-rivenditori-pro-liv-2",
+      "descrizione": "Indirizzato a rivenditori e tecnici-commerciali specializzati nella vendita dei prodotti anticaduta PETZL per l'identificazione dei DPI specifici per l'accesso su fune",
+      "obiettivi": [
+        "Comprendere le differenze tra un sistema di arresto di caduta e un sistema di accesso su fune (EN 363)",
+        "Identificare i DPI specifici per l'accesso su fune",
+        "Utilizzo e scelta dei DPI in base all'ambiente e alla situazione di lavoro"
+      ],
+      "contenuti": [
+        "Presentazione semplificata del quadro normativo italiano del lavoro in quota con sistema di accesso su fune",
+        "Obbligo informativo e consigli per i rivenditori",
+        "Utilizzo e scelta dei DPI in base all'ambiente e alla situazione di lavoro",
+        "Presentazione dei nuovi prodotti per l'accesso su fune"
+      ],
+      "destinatari": [
+        "Rivenditori specializzati nella vendita dei prodotti anticaduta Petzl",
+        "Tecnici-commerciali che vendono prodotti anticaduta Petzl",
+        "Petzl Technical Institute, Petzl Technical Partner"
+      ],
+      "prerequisiti": "Aver superato il modulo 'Rivenditori Pro Liv.1'; conoscenza dei prodotti della gamma anticaduta Petzl",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.30-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "275€+IVA",
+      "sessioni_prossime": ["23/09/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/10_sito-18-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/10_disegno-rev-pro-2.jpg"
+      ]
+    },
+    {
+      "id": "pti-rivenditori-pro-3",
+      "categoria": "PTI",
+      "titolo": "Modulo Rivenditori PRO Liv. 3",
+      "url": "https://www.dvformazione.it/product/pti-modulo-rivenditori-pro-liv-3",
+      "descrizione": "Indirizzato a rivenditori e tecnici-commerciali specializzati nella vendita dei prodotti anticaduta PETZL per l'identificazione dei DPI specifici per l'accesso su fune e soccorso",
+      "obiettivi": [
+        "Conoscere le principali organizzazioni in materia di regolamentazioni, certificazioni e formazione",
+        "Sperimentare le tecniche di accesso e progressione su corda con i prodotti della gamma Petzl",
+        "Realizzazione di un soccorso"
+      ],
+      "contenuti": [
+        "Approccio normativo e raccomandazioni sull'accesso su corda",
+        "Presentazione dei DPI specifici",
+        "Messa in pratica delle differenti configurazioni con il sistema di accesso su corda",
+        "Realizzazione di un soccorso"
+      ],
+      "destinatari": [
+        "Rivenditori specializzati nella vendita dei prodotti anticaduta Petzl",
+        "Tecnici-commerciali che vendono prodotti anticaduta Petzl",
+        "Petzl Technical Institute, Petzl Technical Partner"
+      ],
+      "prerequisiti": "Aver superato 'Rivenditori Pro Liv. 1 e Liv. 2' o avere familiarità con i sistemi di anticaduta, posizionamento e trattenuta; conoscenza dei prodotti della gamma anticaduta Petzl",
+      "durata": "16 ore (2 giorni)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "550€+IVA",
+      "sessioni_prossime": ["24/09/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/11_sito-4-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/11_dessin-acces-sur-corde-rev-3.jpg"
+      ]
+    },
+    {
+      "id": "pti-jag-rescue",
+      "categoria": "PTI",
+      "titolo": "Utilizzo Kit JAG RESCUE",
+      "url": "https://www.dvformazione.it/product/pti-utilizzo-kit-jag-rescue",
+      "descrizione": "Formazione su svariate tecniche di recupero basate sull'utilizzo dell'efficiente e versatile Kit Jag Rescue, per recuperare o calare il compagno in base alle esigenze",
+      "obiettivi": [
+        "Essere in grado di recuperare un collaboratore dopo una caduta",
+        "Comprensione dei rischi relativi al recupero del compagno",
+        "Comprensione delle 5 fasi del recupero"
+      ],
+      "contenuti": [
+        "Cosa si intende per 'recupero del compagno'",
+        "I rischi di un soccorso",
+        "Le 5 fasi del recupero",
+        "Quali sono i materiali da recupero e i sistemi di soccorso"
+      ],
+      "destinatari": [
+        "Lavoratori che utilizzano sistemi anticaduta",
+        "Tecnici-commerciali che vendono prodotti anticaduta Petzl",
+        "Petzl Technical Institute, Petzl Technical Partner"
+      ],
+      "prerequisiti": "Competenze nei lavori in quota; utilizzo di sistemi anticaduta e di accesso su fune",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "275€+IVA",
+      "sessioni_prossime": [],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/12_sito-19-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/12_k090aa00-jag-rescue-kit-30m-lowres.jpg"
+      ]
+    },
+    {
+      "id": "pti-lezard-iguane",
+      "categoria": "PTI",
+      "titolo": "Utilizzo LEZARD/IGUANE",
+      "url": "https://www.dvformazione.it/product/pti-utilizzo-lezard-iguane",
+      "descrizione": "Longe da soccorso per elicottero",
+      "obiettivi": [
+        "Essere in grado di recuperare un collaboratore dopo una caduta",
+        "Comprensione dei rischi relativi al recupero del compagno",
+        "Comprensione delle 5 fasi del recupero"
+      ],
+      "contenuti": [
+        "Cosa si intende per 'recupero del compagno'",
+        "I rischi di un soccorso",
+        "Le 5 fasi del recupero",
+        "Quali sono i materiali da recupero e i sistemi di soccorso"
+      ],
+      "destinatari": [
+        "Lavoratori che utilizzano sistemi anticaduta",
+        "Tecnici-commerciali che vendono prodotti anticaduta Petzl",
+        "Petzl Technical Institute, Petzl Technical Partner"
+      ],
+      "prerequisiti": "Competenze nei lavori in quota; utilizzo di sistemi anticaduta e di accesso su fune",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "399€+IVA",
+      "sessioni_prossime": [],
+      "note": "Sul sito compaiono anche varianti 'LEZARD utilizzatori' e 'LEZARD formatori' che rimandano alla stessa scheda",
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/13_sito-2-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/13_corsolezard-20171219094513.jpg"
+      ]
+    },
+    {
+      "id": "pti-prusik-zig-zag",
+      "categoria": "PTI",
+      "titolo": "Prusik Meccanico ZIG ZAG",
+      "url": "https://www.dvformazione.it/product/pti-prusik-meccanico-zig-zag",
+      "descrizione": "Scoperta e sperimentazione del Prusik Meccanico",
+      "obiettivi": [
+        "Scoprire lo Zig Zag e le sue principali tecniche d'utilizzo",
+        "Sperimentare i benefici dello Zig Zag",
+        "Confrontare lo Zig Zag con altre tecniche di accesso e movimentazione in pianta"
+      ],
+      "contenuti": [
+        "Presentazione generale dello Zig Zag",
+        "Dimostrazione funzionale",
+        "Esercizi pratici in accesso e movimentazione in pianta, confronto con il nodo di Prusik",
+        "Dimostrazione delle tecniche di soccorso"
+      ],
+      "destinatari": ["Arboristi", "Rete commerciale specializzata", "Rivenditori DPI Petzl", "Petzl Technical Partners"],
+      "prerequisiti": "Padronanza delle basi della potatura su corda",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "3 anni",
+      "quota_iscrizione": "275€+IVA",
+      "sessioni_prossime": [],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/19_sito-1-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/19_foto-fune-alberi-2.jpg"
+      ]
+    },
+    {
+      "id": "fune-modulo-a",
+      "categoria": "Fune D.Lgs. 81/08",
+      "titolo": "Fune - Modulo A",
+      "url": "https://www.dvformazione.it/product/fune-italia-fune--modulo-a",
+      "descrizione": "Formazione dei Lavoratori Addetti a lavori temporanei in quota con impiego di sistemi di accesso e posizionamento mediante funi",
+      "obiettivi": [
+        "Tecniche di comunicazione in relazione al ruolo partecipativo",
+        "Diritti e doveri dei lavoratori in materia di sicurezza e salute sul posto di lavoro",
+        "Pericoli nei lavori in quota, rischi e loro valutazione, misure di prevenzione e protezione"
+      ],
+      "contenuti": [
+        "Normative, Diritti e Doveri dei Lavoratori",
+        "Valutazione dei rischi",
+        "Normativa DPI, DPI specifici per il lavoro con Funi",
+        "Dispositivi di Ancoraggio",
+        "Fattore di Caduta",
+        "Procedure Operative",
+        "Procedure di Salvataggio"
+      ],
+      "destinatari": ["Tutti gli addetti operativi, artigiani, professionisti"],
+      "prerequisiti": "Maggiorenni e in buono stato di salute",
+      "durata": "32 ore (4 giorni)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "5 anni",
+      "quota_iscrizione": "800€+IVA",
+      "sessioni_prossime": ["28/09/2026"],
+      "note": "Nel form 'richiedi informazioni' compaiono anche i corsi correlati 'Aggiornamento lavoratori addetti ai sistemi di accesso e posizionamento mediante funi' e 'Preposti con funzioni di sorveglianza dei lavori temporanei in quota mediante funi', non presenti come schede singole",
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/4_foto-fune-2.jpg"
+      ]
+    },
+    {
+      "id": "lavori-in-quota-dpi-iii",
+      "categoria": "Lavori in Quota",
+      "titolo": "Formazione ed Addestramento ai DPI III Categoria",
+      "url": "https://www.dvformazione.it/product/lavori-in-quota-formazione-ed-addestramento-ai-dpi-iii-categoria",
+      "descrizione": "Il corso fornisce agli allievi adeguate conoscenze riguardo i rischi connessi ai lavori in quota, alle diverse tipologie di DPI, ai sistemi di posizionamento anticaduta e sul loro corretto utilizzo",
+      "obiettivi": [
+        "Formare i lavoratori in ottemperanza a quanto disposto dall'art. 36-37-73-77-78 del D.lgs 81/08",
+        "Addestrare i lavoratori all'uso di DPI su percorsi di accesso in salita/discesa in quota, movimentazione su tralicci e gru, piattaforme, scale/trabattelli, linee vita EN 795 C",
+        "Accrescere il livello di sicurezza dei lavoratori"
+      ],
+      "contenuti": [
+        "Normativa Europea",
+        "Normativa Italiana ex D.lgs. 81/2008",
+        "Gestione della sicurezza",
+        "Organizzazione Aziendale e gestione DPI",
+        "Procedure Operative",
+        "Procedure di Salvataggio"
+      ],
+      "destinatari": [
+        "Lavoratori autonomi",
+        "Lavoratori dipendenti",
+        "Professionisti o personale di ispezione (art. 3 D.lgs 81/08) soggetti a rischio di caduta dall'alto",
+        "Petzl Technical Partners"
+      ],
+      "prerequisiti": "Maggiorenni e in buono stato di salute",
+      "durata": "16 ore (2 giorni)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "5 anni",
+      "quota_iscrizione": "550€+IVA",
+      "sessioni_prossime": ["22/09/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/17_disegno-rev-pro-1.jpg"
+      ]
+    },
+    {
+      "id": "soccorso-dpi-e1",
+      "categoria": "Soccorso",
+      "titolo": "DPI E1 - Sistemi di Salvataggio",
+      "url": "https://www.dvformazione.it/product/soccorso-dpi-e1--sistemi-di-salvataggio",
+      "descrizione": "Corso di formazione ed addestramento alla gestione della prima emergenza ed evacuazione di un infortunato in quota mediante sistemi di salvataggio",
+      "obiettivi": [
+        "Formare i lavoratori in ottemperanza agli art. 73-77-78 del D.lgs 81/08",
+        "Addestrare il lavoratore all'utilizzo del kit di salvataggio",
+        "Accrescere il livello di sicurezza dei lavoratori"
+      ],
+      "contenuti": [
+        "Cenni di normativa - Diritti e Doveri dei lavoratori",
+        "Analisi e valutazione dei rischi nei lavori in quota - prevenzioni e misure di protezione",
+        "Scelta e uso dei DPI - controllo e manutenzione",
+        "Cenni sulla patologia da sospensione e conseguente gestione delle emergenze in quota",
+        "Addestramento all'uso dei DPI in funzione delle problematiche lavorative in quota aziendali ed alla gestione dell'emergenza"
+      ],
+      "destinatari": ["Lavoratori autonomi, lavoratori dipendenti e professionisti o personale di ispezione soggetti a rischio di caduta dall'alto, utilizzando DPI di posizionamento e sistemi anticaduta"],
+      "prerequisiti": "Aver seguito i moduli DPI A1",
+      "durata": "8 ore (1 giorno)",
+      "orario": "9.00-17.30",
+      "validita_attestato": "5 anni",
+      "quota_iscrizione": "275€+IVA",
+      "sessioni_prossime": [],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/25_foto-fune.jpg"
+      ]
+    },
+    {
+      "id": "accreditato-formatori-istruttori",
+      "categoria": "Corsi Accreditati",
+      "titolo": "Formazione Formatori e Istruttori DPI Anticaduta - Procedure, Tecniche di Salvataggio ed Evacuazione",
+      "url": "https://www.dvformazione.it/product/corsi-accreditati-formazione-formatori-e-istruttori-dpi-anticaduta",
+      "descrizione": "Corso valido quale aggiornamento per RSPP/ASPP e CSP/CSE e come Formatori sulla sicurezza ai sensi del D.I. 6/3/2013. Rilascia 16 crediti formativi",
+      "obiettivi": [
+        "Approfondire la sicurezza nelle lavorazioni in quota ai sensi del D.Lgs. 81/08 titolo IV capo I e le tecniche di soccorso su scala, traliccio, piano inclinato",
+        "Conoscere caratteristiche, limiti e uso sicuro dell'attrezzatura, scelta del kit adeguato e addestramento periodico"
+      ],
+      "contenuti": [
+        "Normativa (cenni)",
+        "I dispositivi di protezione individuale contro le cadute dall'alto",
+        "Organizzazione e gestione delle esercitazioni pratiche per gli addetti alle emergenze aziendali",
+        "Simulatori per gli addestramenti",
+        "Come gestire le richieste del cliente",
+        "La sicurezza dell'istruttore e dei corsisti",
+        "Le comunicazioni: cosa utilizzare",
+        "Attrezzature e DPI: gestione e scelta",
+        "Esercitazioni pratiche"
+      ],
+      "destinatari": [
+        "RSPP/ASPP",
+        "HSE manager e consulenti sulla sicurezza sul lavoro",
+        "Formatori ed istruttori corsi anticaduta",
+        "Tecnici e consulenti che intendono accrescere le loro competenze per erogare formazione sui DPI anticaduta"
+      ],
+      "prerequisiti": "Conoscenze approfondite in materia di salute e sicurezza sul lavoro per attività con accesso e posizionamento in quota; conoscenza approfondita sui DPI contro le cadute dall'alto",
+      "crediti_formativi": 16,
+      "durata": "16 ore (2 giorni)",
+      "orario": "9.00-17.30",
+      "quota_iscrizione": "700€+IVA",
+      "sessioni_prossime": ["14/09/2026"],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/29_sito-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/29_screenshot-2024-03-12-alle-12-01-24.jpg"
+      ]
+    },
+    {
+      "id": "accreditato-gestione-emergenze",
+      "categoria": "Corsi Accreditati",
+      "titolo": "Gestione Emergenze: Il Soccorso in Quota",
+      "url": "https://www.dvformazione.it/product/corsi-accreditati-gestione-emergenze-il-soccorso-in-quota",
+      "descrizione": "Corso teorico/pratico sulle tecniche di soccorso attuabili nei lavori in quota per specifici settori: edilizia, industria, marittimo, telefonia, rinnovabili. Valido come aggiornamento per RSPP/ASPP e CSP/CSE. Rilascia 16 crediti formativi",
+      "obiettivi": [
+        "Fornire suggerimenti ed indicazioni sulla progettazione e sulla corretta gestione di una emergenza in quota",
+        "Coinvolgimento dei partecipanti con analisi e discussione di scenari operativi e simulazioni pratiche"
+      ],
+      "contenuti": [
+        "Normativa nazionale ed internazionale (cenni)",
+        "I dispositivi di protezione individuale contro le cadute dall'alto",
+        "Attrezzature per il soccorso in quota",
+        "Valutazione del rischio e metodo di lavoro",
+        "Progettazione 1° scenario accesso in quota (anticaduta: traliccio)",
+        "Progettazione 2° scenario accesso in quota (anticaduta: tetto)",
+        "Progettazione 3° scenario accesso in quota (sospensione: edilizia)",
+        "Esercitazioni pratiche"
+      ],
+      "destinatari": [
+        "RSPP/ASPP",
+        "CSP/CSE",
+        "Datori di lavoro impegnati nei lavori in quota (settori: edilizia, industria, marittimo, telefonia, rinnovabili)"
+      ],
+      "prerequisiti": "Conoscenze approfondite in materia di salute e sicurezza sul lavoro per attività con accesso e posizionamento in quota; conoscenza approfondita sui DPI contro le cadute dall'alto",
+      "crediti_formativi": 16,
+      "durata": "16 ore (2 giorni)",
+      "orario": "9.00-17.30",
+      "quota_iscrizione": "700€+IVA",
+      "sessioni_prossime": [],
+      "immagini": [
+        "https://admin.dvformazione.it/content/images/product/30_news-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/30_screenshot-2024-03-12-alle-12-04-27.jpg"
+      ]
+    }
+  ],
+  "corsi_menzionati_non_dettagliati": [
+    {
+      "titolo": "PETZL ROPETRIP® UNA KERMESSE INDIMENTICABILE",
+      "note": "Compare come opzione nel form 'richiedi informazioni' della pagina IRATA L1/L2/L3, nessuna scheda dedicata trovata"
+    },
+    {
+      "titolo": "Aggiornamento lavoratori addetti ai sistemi di accesso e posizionamento mediante funi",
+      "note": "Compare come opzione nel form 'richiedi informazioni' della pagina Fune - Modulo A"
+    },
+    {
+      "titolo": "Preposti con funzioni di sorveglianza dei lavori temporanei in quota mediante funi",
+      "note": "Compare come opzione nel form 'richiedi informazioni' della pagina Fune - Modulo A"
+    }
+  ],
+  "recensioni_home": [
+    {
+      "testo": "Accoglienti, preparati e professionali. Sempre eccezionale.",
+      "autore": "Camilo - Edilizia Acrobatica",
+      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1-thumb.jpg"
+    },
+    {
+      "testo": "Professionali e simpatici, sanno quello che fanno e lo trasmettono con passione.",
+      "autore": "Erik M.",
+      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2-thumb.jpg"
+    },
+    {
+      "testo": "Professionalità, competenza e organizzazione sono il punto di forza di questo centro di formazione.",
+      "autore": "Marco - E-Distribuzione",
+      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-3-thumb.jpg"
+    }
+  ],
+  "direttore_tecnico": {
+    "nome": "Christian Bianchi",
+    "ruolo": "Direttore Tecnico Petzl Italia"
+  },
+  "immagini_tutte": {
+    "loghi_e_branding": [
+      "https://www.dvformazione.it/img/logo-dinamiche-verticali-formazione.svg",
+      "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
+      "https://www.dvformazione.it/img/logo-irata-thumb.png",
+      "https://www.dvformazione.it/img/logo-gwo-thumb.png",
+      "https://www.dvformazione.it/img/logo-petzl-thumb.png",
+      "https://dvformazione.it/img/certificazione-petzl-dinamiche-verticali-formazione.jpg",
+      "https://www.dvformazione.it/img/favicon/ms-icon-144x144.png"
+    ],
+    "carosello_home": [
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-struttura-con-passatoia-thumb.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1-thumb.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-caschi-thumb.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2-thumb.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/capannone-ponteggio-dal-basso-thumb.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-3-thumb.jpg"
+    ],
+    "formatori": [
+      "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore-thumb.jpg",
+      "https://www.dvformazione.it/img/formatori/franco-bignami-formatore-thumb.jpg",
+      "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore-thumb.jpg",
+      "https://www.dvformazione.it/img/formatori/michele-perotti-formatore-thumb.jpg",
+      "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore-thumb.jpg",
+      "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore-thumb.jpg"
+    ],
+    "staff": [
+      "https://www.dvformazione.it/img/valentina-stancanelli-coordinatrice-logistica-formazione-thumb.jpg"
+    ],
+    "corsi_prodotto": [
+      "https://admin.dvformazione.it/content/images/product/6_sito-6-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/6_schermata-2023-06-14-alle-15-19-21.jpg",
+      "https://admin.dvformazione.it/content/images/product/20_sito-20-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/20_01-utilisation-de-lasap-par-grand-vent.jpg",
+      "https://admin.dvformazione.it/content/images/product/7_sito-10-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/7_schermata-2023-06-16-alle-15-54-53.jpg",
+      "https://admin.dvformazione.it/content/images/product/8_sito-8-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/8_preview-01.jpg",
+      "https://admin.dvformazione.it/content/images/product/9_sito-7-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/9_disegno-rev-pro-1.jpg",
+      "https://admin.dvformazione.it/content/images/product/10_sito-18-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/10_disegno-rev-pro-2.jpg",
+      "https://admin.dvformazione.it/content/images/product/11_sito-4-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/11_dessin-acces-sur-corde-rev-3.jpg",
+      "https://admin.dvformazione.it/content/images/product/12_sito-19-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/12_k090aa00-jag-rescue-kit-30m-lowres.jpg",
+      "https://admin.dvformazione.it/content/images/product/13_sito-2-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/13_corsolezard-20171219094513.jpg",
+      "https://admin.dvformazione.it/content/images/product/19_sito-1-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/19_foto-fune-alberi-2.jpg",
+      "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/4_foto-fune-2.jpg",
+      "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/17_disegno-rev-pro-1.jpg",
+      "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/25_foto-fune.jpg",
+      "https://admin.dvformazione.it/content/images/product/29_sito-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/29_screenshot-2024-03-12-alle-12-01-24.jpg",
+      "https://admin.dvformazione.it/content/images/product/30_news-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/30_screenshot-2024-03-12-alle-12-04-27.jpg"
+    ]
+  },
+  "video": [
+    {
+      "titolo": "Video di presentazione IRATA/PTI",
+      "url": "https://youtu.be/fWyU06ZlqrQ?si=JOelgntqT4iOB8KJ"
+    },
+    {
+      "titolo": "Embed pagina IRATA",
+      "url": "https://www.youtube-nocookie.com/embed/M48wXaOpppU?si=8JOBQSSeBGUh4nFQ"
+    },
+    {
+      "titolo": "Embed pagina GWO",
+      "url": "https://www.youtube-nocookie.com/embed/GYmPUpWDKA0?si=oq1n1SP02msdB5Dz"
+    },
+    {
+      "titolo": "Embed pagina PTI",
+      "url": "https://www.youtube-nocookie.com/embed/_l28J0E18tQ?si=XfimI0KlOlXx1f7q"
+    }
+  ],
+  "note_generali": "Il calendario 'Attualmente ci sono 18 corsi in programma' visibile in homepage è generato dinamicamente via JavaScript e non è stato possibile estrarne il contenuto testuale completo tramite fetch statico; i conteggi per categoria mostrati erano: Tutti 18, Fune D.Lgs. 81/08 3, GWO 1, IRATA 3, Lavori in Quota 1, PTI 9, Soccorso 0, Corsi accreditati 1. Le 17 schede corso sopra elencate (dati statici) corrispondono a questa distribuzione."
+}

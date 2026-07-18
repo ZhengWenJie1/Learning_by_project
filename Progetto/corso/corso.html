@@ -3,22 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Corso - Formazione</title>
-<link rel="stylesheet" href="corso_addons/corso_css/corso.css">
+<title>Corso - Dinamiche Verticali Formazione</title>
+<link rel="stylesheet" href="corso_css/corso.css">
 </head>
 <body>
 
   <!-- HEADER / NAV -->
   <header class="navbar">
-    <a href="../home.html" class="logo">
+    <a href="../home/home.html" class="logo">
       <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
       <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
     </a>
     <nav>
-      <a href="corso.html" class="active">CORSO</a>
-      <a href="../home.html">ARCH/FORMAZIONE</a>
+      <a href="../home/home.html">FORMAZIONE</a>
+      <a href="../home/home.html#corsi">CORSI</a>
+      <a href="../home/home.html#calendario">CALENDARIO</a>
       <a href="../news/news.html">BLOG</a>
-      <a href="../home.html">CONTATTI</a>
+      <a href="../contatti/contatti.html">CONTATTI</a>
     </nav>
   </header>
 
@@ -27,25 +28,31 @@
     <div class="corso-box">
       <img id="corsoImg" class="corso-img" src="" alt="" style="display:none;">
       <span id="corsoCategoria" class="corso-categoria"></span>
-      <h1 id="corsoTitolo">Titolo corso placeholder</h1>
-      <p id="corsoSottotitolo" class="corso-sottotitolo"></p>
-      <p id="corsoDescrizione" class="placeholder-text">
-        Testo placeholder per la descrizione del corso. Qui andranno il
-        programma, la durata, il prezzo e le informazioni per l'iscrizione.
-      </p>
-      <p id="corsoSede" class="corso-sede"></p>
+      <h1 id="corsoTitolo">Titolo corso</h1>
+      <p id="corsoDescrizione" class="placeholder-text"></p>
 
-      <div id="corsoLivelli" class="corso-livelli"></div>
+      <div class="corso-info-grid" id="corsoInfoGrid"></div>
 
-      <div id="corsoVideoWrap" class="corso-video" style="display:none;">
-        <iframe id="corsoVideo" src="" title="Video corso" frameborder="0" allowfullscreen></iframe>
+      <div id="corsoObiettiviWrap">
+        <h3>Obiettivi</h3>
+        <ul id="corsoObiettivi"></ul>
       </div>
 
-      <a id="corsoLinkEsterno" class="btn-iscriviti" href="#" target="_blank" rel="noopener" style="display:none;">Vai al corso &rarr;</a>
+      <div id="corsoDestinatariWrap">
+        <h3>Destinatari</h3>
+        <ul id="corsoDestinatari"></ul>
+      </div>
+
+      <div id="corsoSessioniWrap">
+        <h3>Prossime sessioni</h3>
+        <div class="sessioni-chips" id="corsoSessioni"></div>
+      </div>
+
+      <a id="corsoLinkEsterno" href="#" target="_blank" rel="noopener" class="btn-iscriviti">Richiedi informazioni &rarr;</a>
 
       <div class="links">
-        <a href="../home.html">&larr; Torna alla home</a>
-        <a href="../news/news.html">Vai alle news &rarr;</a>
+        <a href="../home/home.html">&larr; Torna alla home</a>
+        <a href="../home/home.html#corsi">Tutti i corsi</a>
       </div>
     </div>
   </section>
@@ -54,6 +61,6 @@
     <p>&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
   </footer>
 
-  <script src="corso_addons/corso_js/corso.js"></script>
+  <script src="corso_js/corso.js"></script>
 </body>
 </html>
