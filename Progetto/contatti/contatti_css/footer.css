@@ -1,0 +1,13 @@
+/* ==========================================================
+   FOOTER.CSS
+   Stile per il piè di pagina semplice (uguale nelle pagine
+   corso, contatti e news)
+   ========================================================== */
+
+footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 12px;
+  color: #999;
+  border-top: 1px solid #eee;
+}

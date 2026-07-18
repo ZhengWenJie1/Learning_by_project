@@ -1,0 +1,85 @@
+/* ==========================================================
+   FOOTER.CSS
+   Stili per il piè di pagina completo della home: logo,
+   colonne di link, social e riga del copyright
+   ========================================================== */
+
+footer#siteFooter {
+  background: var(--dark);
+  color: #fff;
+  padding: 50px 40px 20px;
+}
+.footer-top {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+@media (max-width: 800px) {
+  .footer-top { grid-template-columns: 1fr 1fr; }
+}
+
+.footer-brand span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+.footer-brand span span {
+  color: var(--orange-2);
+}
+.footer-brand .logo-img {
+  max-height: 36px;
+  margin-bottom: 8px;
+}
+.footer-brand p {
+  font-size: 11px;
+  color: #a89f92;
+  margin-top: 10px;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: 14px;
+  color: var(--orange-2);
+}
+.footer-col a,
+.footer-col p {
+  display: block;
+  font-size: 12px;
+  color: #cfc8bd;
+  margin-bottom: 8px;
+}
+.footer-col a:hover {
+  color: #fff;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+.footer-social a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.footer-social a:hover {
+  background: var(--orange);
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 11px;
+  color: #8a8378;
+  padding-top: 18px;
+}

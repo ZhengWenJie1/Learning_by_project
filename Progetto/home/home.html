@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dinamiche Verticali Formazione</title>
+
+<!-- Ogni file CSS si occupa solo di UNA parte della pagina -->
+<link rel="stylesheet" href="home_css/base.css">
+<link rel="stylesheet" href="home_css/navbar.css">
+<link rel="stylesheet" href="home_css/hero.css">
+<link rel="stylesheet" href="home_css/corsi.css">
+<link rel="stylesheet" href="home_css/calendario.css">
+<link rel="stylesheet" href="home_css/chi-siamo.css">
+<link rel="stylesheet" href="home_css/news.css">
+<link rel="stylesheet" href="home_css/social.css">
+<link rel="stylesheet" href="home_css/sede.css">
+<link rel="stylesheet" href="home_css/testo-finale.css">
+<link rel="stylesheet" href="home_css/footer.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="navbar">
+    <a href="home.html" class="logo" id="logoLink">
+      <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
+      <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+    </a>
+    <nav>
+      <a href="home.html" class="active">FORMAZIONE</a>
+      <a href="home.html#corsi">CORSI</a>
+      <a href="home.html#calendario">CALENDARIO</a>
+      <a href="../news/news.html">BLOG</a>
+      <a href="../contatti/contatti.html">CONTATTI</a>
+    </nav>
+    <div class="nav-search-wrap">
+      <input type="text" id="navSearchInput" class="nav-search-input" placeholder="Cerca un corso...">
+      <button class="nav-search" id="navSearchBtn" aria-label="Cerca">&#128269;</button>
+    </div>
+  </header>
+
+  <!-- HERO SLIDER -->
+  <section class="hero" id="hero">
+    <div class="hero-slides" id="heroSlides"></div>
+    <div class="hero-partners" id="heroPartners"></div>
+  </section>
+
+  <!-- CORSI / CALENDARIO -->
+  <section class="section" id="corsi">
+
+    <div class="view-tabs" id="viewTabs">
+      <button class="view-tab selected" data-view="corsi" type="button">Corsi</button>
+      <button class="view-tab" data-view="calendario" type="button">Calendario</button>
+    </div>
+
+    <!-- VISTA: CORSI -->
+    <div class="view-panel" id="viewCorsi">
+      <h2>Corsi</h2>
+
+      <div class="search-row">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="searchInput" placeholder="Cerca un corso...">
+      </div>
+
+      <div class="filters-row" id="filters"></div>
+
+      <div class="courses-grid" id="coursesGrid"></div>
+    </div>
+
+    <!-- VISTA: CALENDARIO -->
+    <div class="view-panel" id="viewCalendario" style="display:none;">
+      <div class="cal-box">
+        <div class="cal-head">
+          <h2>Calendario</h2>
+          <span class="cal-anno" id="calAnno"></span>
+        </div>
+        <div class="filters-row cal-filters" id="calFilters"></div>
+        <div class="cal-nav">
+          <button id="calPrev" aria-label="Mese precedente">&#10094;</button>
+          <span id="calMeseLabel"></span>
+          <button id="calNext" aria-label="Mese successivo">&#10095;</button>
+        </div>
+        <div class="cal-weekdays">
+          <span>Lun</span><span>Mar</span><span>Mer</span><span>Gio</span><span>Ven</span><span>Sab</span><span>Dom</span>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+        <p class="cal-empty" id="calEmpty" style="display:none;">Nessuna sessione in programma per questo filtro in questo mese.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHI SIAMO -->
+  <section class="chi-siamo-wrap">
+    <div class="chi-siamo">
+      <h2 id="chiSiamoTitolo">Chi siamo</h2>
+      <div class="chi-siamo-body">
+        <div class="chi-siamo-testo">
+          <p id="chiSiamoTesto"></p>
+          <div class="stats" id="statsBox"></div>
+        </div>
+        <div class="chi-siamo-features" id="featuresBox"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS E AGGIORNAMENTI -->
+  <section class="section news-sect">
+    <h2>News e aggiornamenti</h2>
+    <p class="news-sub">Resta aggiornato con le ultime novità del mondo della formazione in quota e su fune, sicurezza sul lavoro e nuovi corsi in programma.</p>
+    <div class="news-grid" id="newsGrid"></div>
+  </section>
+
+  <!-- SOCIAL -->
+  <section class="section social-sect">
+    <h2>Social</h2>
+    <p class="news-sub">Seguici sui nostri canali social, sempre aggiornati con i momenti più belli dai corsi.</p>
+    <div class="social-video-row" id="socialVideoRow"></div>
+    <div class="social-row" id="socialRow"></div>
+  </section>
+
+  <!-- LA NOSTRA SEDE -->
+  <section class="sede-wrap">
+    <div class="sede">
+      <h2>La nostra sede</h2>
+      <p class="sede-sub" id="sedeSub"></p>
+      <div class="sede-gallery" id="sedeGallery"></div>
+
+      <h3 class="formatori-title">I vostri feedback</h3>
+      <div class="recensioni-grid" id="recensioniGrid2"></div>
+    </div>
+  </section>
+
+  <!-- TESTO DESCRITTIVO -->
+  <section class="section testo-finale">
+    <h2 id="testoFinaleTitolo">Dinamiche Verticali, formazione pratica</h2>
+    <p id="testoFinale1">
+      Da anni affianchiamo aziende e professionisti nella formazione per il lavoro in quota, l'accesso su fune e la gestione
+      delle emergenze. Le nostre aule teoriche si integrano con strutture pratiche progettate per riprodurre le condizioni
+      reali di cantiere: ponteggi, tralicci, spazi confinati e sistemi di soccorso.
+    </p>
+    <p id="testoFinale2">
+      Ogni corso è tenuto da formatori certificati e costantemente aggiornati sugli standard internazionali IRATA, GWO e
+      Petzl Solutions, con l'obiettivo di trasmettere competenze solide e un approccio consapevole alla sicurezza.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="siteFooter">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img id="footerLogoImg" src="" alt="" class="logo-img" style="display:none;">
+        <span id="footerLogoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+        <p id="footerPiva"></p>
+      </div>
+      <div class="footer-col">
+        <h4>Il centro</h4>
+        <a href="home.html">Formazione</a>
+        <a href="home.html#corsi">Corsi</a>
+        <a href="home.html#calendario">Calendario</a>
+        <a href="../news/news.html">Blog</a>
+        <a href="../contatti/contatti.html">Contatti</a>
+      </div>
+      <div class="footer-col" id="footerContatti">
+        <h4>Contatti</h4>
+      </div>
+      <div class="footer-col">
+        <h4>Seguici</h4>
+        <div class="footer-social" id="footerSocial"></div>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
+  </footer>
+
+  <!-- Ogni file JS si occupa solo di UNA parte della pagina.
+       "stato.js" va per primo (contiene le variabili condivise),
+       "main.js" va per ultimo (scarica i dati e avvia tutto) -->
+  <script src="home_js/stato.js"></script>
+  <script src="home_js/navbar.js"></script>
+  <script src="home_js/hero.js"></script>
+  <script src="home_js/corsi.js"></script>
+  <script src="home_js/calendario.js"></script>
+  <script src="home_js/schede.js"></script>
+  <script src="home_js/chi-siamo.js"></script>
+  <script src="home_js/news.js"></script>
+  <script src="home_js/social.js"></script>
+  <script src="home_js/sede.js"></script>
+  <script src="home_js/footer.js"></script>
+  <script src="home_js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* ==========================================================
+   BANNER.CSS
+   Striscia scura in cima alla pagina, sotto la navbar, con
+   titolo e sottotitolo
+   ========================================================== */
+
+.banner {
+  background: var(--dark);
+  color: #fff;
+  padding: 60px 40px;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 14px;
+  color: #cfc8bd;
+  max-width: 500px;
+  margin: 0 auto;
+}

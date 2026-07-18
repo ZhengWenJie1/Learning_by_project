@@ -1,0 +1,39 @@
+/* ==========================================================
+   MAPPA.CSS
+   Stili per il riquadro a destra con l'indirizzo e il
+   pulsante che apre Google Maps
+   ========================================================== */
+
+.contatti-mappa {
+  flex: 1;
+  min-width: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #e5ded4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+}
+.mappa-placeholder {
+  text-align: center;
+  padding: 30px;
+}
+.mappa-placeholder p {
+  font-size: 14px;
+  color: var(--dark);
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.btn-mappa {
+  display: inline-block;
+  background: var(--dark);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 22px;
+  border-radius: 4px;
+}
+.btn-mappa:hover {
+  background: var(--orange);
+}

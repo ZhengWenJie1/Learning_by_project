@@ -1,0 +1,97 @@
+/* ==========================================================
+   CHI-SIAMO.CSS
+   Stili per il riquadro scuro "Chi siamo": testo, numeri
+   statistici (stats) e le card con le caratteristiche
+   ========================================================== */
+
+.chi-siamo-wrap {
+  padding: 0 40px;
+  margin: 20px auto 60px;
+  max-width: 1180px;
+}
+.chi-siamo {
+  background: var(--dark);
+  border-radius: 16px;
+  color: #fff;
+  padding: 44px 40px;
+}
+.chi-siamo h2 {
+  text-align: center;
+  margin-bottom: 26px;
+  font-size: 24px;
+}
+.chi-siamo-body {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.chi-siamo-testo {
+  flex: 1;
+  min-width: 260px;
+}
+.chi-siamo-testo p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #cfc8bd;
+  margin-bottom: 28px;
+}
+
+/* Numeri statistici (es. "+18 anni di esperienza") */
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.stat {
+  border-left: 3px solid var(--orange);
+  padding-left: 12px;
+}
+.stat .num {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--orange-2);
+}
+.stat .label {
+  font-size: 11px;
+  color: #cfc8bd;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+
+/* Card con le caratteristiche del centro */
+.chi-siamo-features {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.feature-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--dark);
+}
+.feature-card .icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--cream-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+.feature-card .ftitle {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.feature-card .fdesc {
+  font-size: 11px;
+  color: #888;
+}

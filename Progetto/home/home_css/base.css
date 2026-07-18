@@ -1,0 +1,83 @@
+/* ==========================================================
+   BASE.CSS
+   Qui mettiamo le cose "di base" che servono a tutta la pagina:
+   - i colori del sito (variabili CSS)
+   - il reset (per far partire tutti i browser dalla stessa base)
+   - gli stili generali di body, link e immagini
+   - i pulsanti generici (.btn) usati in più punti del sito
+   ========================================================== */
+
+/* Le variabili CSS sono come delle "scatole" con un nome:
+   le definiamo una volta qui con --nome-variabile: valore;
+   e poi le richiamiamo altrove con var(--nome-variabile) */
+:root {
+  --dark: #241c15;
+  --dark-2: #2c231a;
+  --orange: #e8935a;
+  --orange-2: #f0a868;
+  --cream: #fbf1e7;
+  --cream-2: #f7e9dc;
+  --text-muted: #8a8378;
+}
+
+/* Reset: togliamo i margini/padding di default che mette il browser,
+   così partiamo tutti dallo stesso punto */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2d2d2d;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Contenitore standard usato da quasi tutte le sezioni della pagina */
+.section {
+  padding: 60px 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.section h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: var(--dark);
+}
+
+/* Pulsanti generici (li usiamo ad esempio nell'hero) */
+.btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  transition: opacity .2s, background .2s;
+}
+.btn-light {
+  background: #fff;
+  color: var(--dark);
+}
+.btn-light:hover {
+  background: #eee;
+}
+.btn-primary {
+  background: var(--orange);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #d97f42;
+}

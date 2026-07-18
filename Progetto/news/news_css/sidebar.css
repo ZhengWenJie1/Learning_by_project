@@ -1,0 +1,29 @@
+/* ==========================================================
+   SIDEBAR.CSS
+   Stili per la colonna laterale a destra, con i contatti
+   e i link ai social
+   ========================================================== */
+
+.sidebar {
+  flex: 1;
+}
+.sidebar h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+  color: var(--dark);
+}
+.sidebar h3:first-child {
+  margin-top: 0;
+}
+.sidebar p,
+.sidebar a {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #555;
+}
+.sidebar a {
+  display: block;
+  color: var(--orange);
+  font-weight: 600;
+}
