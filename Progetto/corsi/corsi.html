@@ -39,26 +39,28 @@
   <footer id="siteFooter">
     <div class="footer-top">
       <div class="footer-brand">
-        <img id="footerLogoImg" src="" alt="" class="logo-img" style="display:none;">
-        <span id="footerLogoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
-        <p id="footerPiva"></p>
+        <div class="footer-brand-riga">
+          <svg class="footer-logo-icona" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="10,90 10,10 90,10" fill="none" stroke="#e8935a" stroke-width="7"/>
+            <polyline points="90,10 90,90 10,90" fill="none" stroke="#ffffff" stroke-width="7"/>
+            <line x1="10" y1="10" x2="90" y2="90" stroke="#e8935a" stroke-width="7"/>
+          </svg>
+          <span class="footer-logo-testo">DINAMICHE<br>VERTICALI<br>FORMAZIONE</span>
+        </div>
+        <p id="footerIndirizzo"></p>
       </div>
       <div class="footer-col">
-        <h4>Il centro</h4>
-        <a href="../home/home.html">Formazione</a>
-        <a href="corsi.html">Corsi</a>
-        <a href="../news/news.html">Blog</a>
-        <a href="../contatti/contatti.html">Contatti</a>
-      </div>
-      <div class="footer-col" id="footerContatti">
-        <h4>Contatti</h4>
-      </div>
-      <div class="footer-col">
-        <h4>Seguici</h4>
+        <h4>Enti certificatori e formativi:</h4>
+        <div id="footerEnti"></div>
+        <h4 class="footer-seguici-titolo">Seguici:</h4>
         <div class="footer-social" id="footerSocial"></div>
       </div>
+      <div class="footer-col footer-col-destra">
+        <p id="footerCopy"></p>
+        <p id="footerPiva"></p>
+        <div id="footerContatti"></div>
+      </div>
     </div>
-    <p class="footer-copy">&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
   </footer>
 
   <!-- Ogni file JS si occupa solo di UNA parte della pagina.

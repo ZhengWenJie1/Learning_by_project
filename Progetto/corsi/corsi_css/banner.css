@@ -1,40 +1,64 @@
 /* ==========================================================
    BANNER.CSS
-   Striscia in cima alla pagina, con una foto di sfondo, un
-   velo scuro sopra e il titolo al centro
+   Grande foto di apertura, come quella della home: stessa
+   altezza, angoli arrotondati e testo in basso a sinistra con
+   una sfumatura scura dietro per farlo leggere bene
    ========================================================== */
 
 .banner {
   position: relative;
-  padding: 70px 40px;
-  text-align: center;
+  margin: 0;
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
   color: #fff;
   background-color: var(--dark);
   background-size: cover;
   background-position: center;
 }
 
-/* Il "velo" scuro sopra la foto, per far leggere bene il testo.
-   ::before crea un elemento invisibile che riempie tutto il banner */
+/* La sfumatura scura solo nella parte bassa della foto, così il
+   testo si legge bene ma l'immagine resta visibile sopra */
 .banner::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(20, 15, 10, .7);
+  background: linear-gradient(180deg, rgba(20, 15, 10, 0) 35%, rgba(20, 15, 10, .85) 100%);
 }
 
-/* Il testo deve stare SOPRA il velo scuro, non sotto */
+/* Il testo deve stare SOPRA la sfumatura, non sotto */
 .banner-testo {
   position: relative;
   z-index: 1;
+  padding: 40px 50px;
+  max-width: 560px;
 }
 .banner h1 {
-  font-size: 26px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--orange-2);
+  margin-bottom: 12px;
 }
 .banner p {
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.5;
   color: #f0e6d8;
-  max-width: 460px;
-  margin: 0 auto;
+  max-width: 480px;
+}
+
+/* VERSIONE MOBILE (sotto i 700px) */
+@media (max-width: 700px) {
+  .banner {
+    margin: 0;
+    min-height: 380px;
+    border-radius: 0 0 14px 14px;
+  }
+  .banner-testo {
+    padding: 24px 24px;
+  }
+  .banner h1 {
+    font-size: 22px;
+  }
 }

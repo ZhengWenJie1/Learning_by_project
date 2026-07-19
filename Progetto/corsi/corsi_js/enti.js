@@ -1,59 +1,104 @@
 // ==========================================================
 // ENTI.JS
-// Disegna la lista degli enti certificati (Dinamiche Verticali
-// stessa, più le certificazioni presenti nel file JSON: PTI,
-// IRATA, GWO). Ogni card porta alla pagina di dettaglio del
-// singolo ente, tranne quella di Dinamiche Verticali che porta
-// alla lista corsi sulla home
+// Disegna la lista degli enti certificati. Per ogni ente c'è:
+// un logo, il nome, un elenco puntato dei corsi collegati e un
+// pulsante "Maggiori informazioni".
+//
+// L'elenco è scritto qui sotto a mano (array di oggetti), perché
+// il testo mostrato sulla pagina "Corsi" è un riassunto pensato
+// apposta per questa pagina e non i testi lunghi del JSON.
 // ==========================================================
 
-// Crea l'HTML di UNA card ente, a partire da logo, nome,
-// descrizione e link del pulsante
-function creaCardEnte(logo, nome, descrizione, link) {
+const listaEnti = [
+  {
+    logo: "https://www.dvformazione.it/img/logo-dinamiche-verticali-formazione.svg",
+    nome: "Dinamiche Verticali Formazione",
+    corsi: [
+      "FORMAZIONE ED ADDESTRAMENTO AI SISTEMI DI ACCESSO E SALVATAGGIO IN SPAZI CONFINATI",
+      "Formazione Formatori e Istruttori DPI Anticaduta",
+      "Fune",
+      "Aggiornamento lavoratori addetti ai sistemi di accesso e posizionamento mediante funi",
+      "Preposti con funzioni di sorveglianza dei lavori temporanei in quota mediante funi"
+    ],
+    link: "../home/home.html#corsi"
+  },
+  {
+    logo: "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
+    nome: "IRATA",
+    corsi: [
+      { testo: "Certificazione IRATA L1-L2-L3", link: "../corso/corso.html?id=irata-l1-l2-l3" }
+    ],
+    link: "../ente/ente.html?sigla=IRATA"
+  },
+  {
+    logo: "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
+    nome: "PTI",
+    corsi: [
+      { testo: "Aggiornamento Revisioni Periodiche DPI Petzl", link: "../corso/corso.html?id=pti-aggiornamento-revisioni" },
+      { testo: "Revisioni Periodiche DPI Petzl", link: "../corso/corso.html?id=pti-revisioni-periodiche" },
+      { testo: "Modulo rivenditori PRO L1-L2-L3", link: "../corso/corso.html?id=pti-rivenditori-pro-1" }
+    ],
+    link: "../ente/ente.html?sigla=PTI"
+  },
+  {
+    logo: "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
+    nome: "GWO",
+    corsi: [
+      { testo: "GWO BST (FA+WAH+MH+FAW)", link: "../corso/corso.html?id=gwo-bst" }
+    ],
+    link: "../ente/ente.html?sigla=GWO"
+  },
+  {
+    logo: "corsi_img/logo-itra.svg",
+    nome: "ITRA",
+    corsi: [
+      { testo: "ITRA - Soccorso Tecnico", link: "../ente/ente.html?sigla=ITRA" }
+    ],
+    link: "../ente/ente.html?sigla=ITRA"
+  }
+];
+
+// Crea l'HTML dell'elenco puntato di UNA card. Se una voce è una
+// semplice stringa la scrive come testo, se invece è un oggetto
+// {testo, link} la scrive come link cliccabile
+function creaElencoCorsi(corsi) {
+  let html = "";
+  corsi.forEach(function (corso) {
+    if (typeof corso === "string") {
+      html += `<li>${corso}</li>`;
+    } else {
+      html += `<li><a href="${corso.link}">${corso.testo}</a></li>`;
+    }
+  });
+  return html;
+}
+
+// Crea l'HTML di UNA card ente, a partire da logo, nome, elenco
+// corsi e link del pulsante
+function creaCardEnte(ente) {
   return `
     <div class="ente-card">
       <div class="ente-logo">
-        <img src="${logo}" alt="${nome}">
+        <img src="${ente.logo}" alt="${ente.nome}">
       </div>
       <div class="ente-testo">
-        <h2>${nome}</h2>
-        <p>${descrizione}</p>
+        <h2>${ente.nome}</h2>
+        <ul class="ente-corsi">
+          ${creaElencoCorsi(ente.corsi)}
+        </ul>
+        <a href="${ente.link}" class="ente-btn">Maggiori informazioni <span class="freccia">&rarr;</span></a>
       </div>
-      <a href="${link}" class="ente-btn">Maggiori informazioni</a>
     </div>
   `;
 }
 
-function mostraEnti(dati) {
+function mostraEnti() {
   const contenitore = document.querySelector("#entiLista");
   if (!contenitore) return;
 
   let htmlLista = "";
-
-  // Prima card: Dinamiche Verticali Formazione stessa, con link
-  // alla pagina dei corsi sulla home
-  const sito = dati.sito || {};
-  htmlLista += creaCardEnte(
-    sito.logo || "",
-    sito.nome || "",
-    sito.descrizione_breve || "",
-    "../home/home.html#corsi"
-  );
-
-  // Una card per ogni ente presente in "certificazioni" nel JSON.
-  // Il link porta alla pagina di dettaglio interna al sito, con la
-  // sigla dell'ente scritta nell'indirizzo (es. ente.html?sigla=IRATA)
-  const certificazioni = dati.certificazioni || [];
-  certificazioni.forEach(function (certificazione) {
-    const logo = (certificazione.loghi && certificazione.loghi.home_thumb) || "";
-    const sigla = certificazione.nome.split(" - ")[0];
-
-    htmlLista += creaCardEnte(
-      logo,
-      certificazione.nome,
-      certificazione.descrizione || "",
-      `../ente/ente.html?sigla=${sigla}`
-    );
+  listaEnti.forEach(function (ente) {
+    htmlLista += creaCardEnte(ente);
   });
 
   contenitore.innerHTML = htmlLista;
