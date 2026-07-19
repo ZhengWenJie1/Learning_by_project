@@ -32,6 +32,8 @@ function mostraContattiInfo(dati) {
   document.querySelector("#cOrari").textContent = contatti.orari_telefono || "";
 
   // Elenco puntato con le note sulla posizione (se presente)
+  // .forEach(...) esegue la funzione per OGNI elemento dell'array:
+  // qui, per ogni nota da mostrare nell'elenco puntato
   const listaNote = document.querySelector("#cNote");
   if (Array.isArray(contatti.note_posizione)) {
     let htmlNote = "";

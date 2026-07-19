@@ -1,0 +1,40 @@
+/* ==========================================================
+   BANNER.CSS
+   Striscia in cima alla pagina, con una foto di sfondo, un
+   velo scuro sopra e il titolo al centro
+   ========================================================== */
+
+.banner {
+  position: relative;
+  padding: 70px 40px;
+  text-align: center;
+  color: #fff;
+  background-color: var(--dark);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Il "velo" scuro sopra la foto, per far leggere bene il testo.
+   ::before crea un elemento invisibile che riempie tutto il banner */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 15, 10, .7);
+}
+
+/* Il testo deve stare SOPRA il velo scuro, non sotto */
+.banner-testo {
+  position: relative;
+  z-index: 1;
+}
+.banner h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 14px;
+  color: #f0e6d8;
+  max-width: 460px;
+  margin: 0 auto;
+}

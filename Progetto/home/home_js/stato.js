@@ -37,6 +37,11 @@ let eventiCalendario = [];         // sessioni corso da mostrare nel calendario
 
 // Restituisce le informazioni (id, nome, colore, icona) di una categoria.
 // Se la categoria non è nella mappa, restituiamo dei valori generici.
+//
+// Il simbolo || (chiamato OR) qui è un trucco molto usato: se la parte
+// a sinistra è "falsa" o undefined, JavaScript usa automaticamente
+// la parte a destra. Quindi: "usa CATEGORIA_MAP[nomeCategoria],
+// ma se non esiste usa l'oggetto generico dopo il ||".
 function categoriaInfo(nomeCategoria) {
   return CATEGORIA_MAP[nomeCategoria] || { id: "altro", nome: nomeCategoria, colore: "#888", icona: "📌" };
 }

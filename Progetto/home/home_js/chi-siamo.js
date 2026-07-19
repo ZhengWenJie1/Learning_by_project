@@ -34,7 +34,9 @@ function mostraChiSiamo(dati) {
 
   const boxCaratteristiche = document.querySelector("#featuresBox");
   if (boxCaratteristiche) {
-    // Conta quanti corsi appartengono a una certa categoria
+    // Conta quanti corsi appartengono a una certa categoria.
+    // .filter(...) tiene solo i corsi di quella categoria, poi
+    // .length ci dice quanti sono rimasti.
     function contaCorsiPerCategoria(nomeCategoria) {
       return dati.corsi.filter(function (corso) {
         return corso.categoria === nomeCategoria;

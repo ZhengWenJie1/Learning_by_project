@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enti certificati e formativi - Dinamiche Verticali Formazione</title>
+
+<!-- Ogni file CSS si occupa solo di UNA parte della pagina -->
+<link rel="stylesheet" href="corsi_css/base.css">
+<link rel="stylesheet" href="corsi_css/navbar.css">
+<link rel="stylesheet" href="corsi_css/banner.css">
+<link rel="stylesheet" href="corsi_css/enti.css">
+<link rel="stylesheet" href="corsi_css/footer.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="../home/home.html" class="logo">
+      <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
+      <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+    </a>
+    <nav>
+      <a href="../home/home.html">FORMAZIONE</a>
+      <a href="corsi.html" class="active">CORSI</a>
+      <a href="../news/news.html">BLOG</a>
+      <a href="../contatti/contatti.html">CONTATTI</a>
+    </nav>
+  </header>
+
+  <div class="banner" id="banner">
+    <div class="banner-testo">
+      <h1>Enti certificati e formativi</h1>
+      <p>Scopri tutti gli enti e le certificazioni con cui collaboriamo per offrirti una formazione riconosciuta.</p>
+    </div>
+  </div>
+
+  <section class="enti-lista" id="entiLista"></section>
+
+  <footer id="siteFooter">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img id="footerLogoImg" src="" alt="" class="logo-img" style="display:none;">
+        <span id="footerLogoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+        <p id="footerPiva"></p>
+      </div>
+      <div class="footer-col">
+        <h4>Il centro</h4>
+        <a href="../home/home.html">Formazione</a>
+        <a href="corsi.html">Corsi</a>
+        <a href="../news/news.html">Blog</a>
+        <a href="../contatti/contatti.html">Contatti</a>
+      </div>
+      <div class="footer-col" id="footerContatti">
+        <h4>Contatti</h4>
+      </div>
+      <div class="footer-col">
+        <h4>Seguici</h4>
+        <div class="footer-social" id="footerSocial"></div>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
+  </footer>
+
+  <!-- Ogni file JS si occupa solo di UNA parte della pagina.
+       "main.js" va per ultimo perché scarica i dati e avvia tutto -->
+  <script src="corsi_js/navbar.js"></script>
+  <script src="corsi_js/enti.js"></script>
+  <script src="corsi_js/footer.js"></script>
+  <script src="corsi_js/main.js"></script>
+</body>
+</html>

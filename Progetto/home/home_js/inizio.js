@@ -1,19 +1,19 @@
 // ==========================================================
-// HERO.JS
-// Disegna l'immagine grande in cima alla pagina (hero) e la
+// INIZIO.JS
+// Disegna la sezione di apertura della pagina (inizio) e la
 // riga con i loghi dei partner/certificazioni sotto di essa
 // ==========================================================
 
-// Disegna la sezione hero con titolo, descrizione e pulsanti
-function mostraHero(dati) {
+// Disegna la sezione di apertura con titolo, descrizione e pulsanti
+function mostraInizio(dati) {
   const immagine = dati.immagini_tutte.carosello_home[0];
 
-  document.querySelector("#heroSlides").innerHTML = `
-    <div class="hero-slide" style="background-image:linear-gradient(180deg, rgba(20,15,10,.35) 0%, rgba(15,10,6,.9) 90%), url('${immagine}');">
-      <div class="hero-content">
+  document.querySelector("#inizioSlides").innerHTML = `
+    <div class="inizio-slide" style="background-image:linear-gradient(180deg, rgba(20,15,10,.35) 0%, rgba(15,10,6,.9) 90%), url('${immagine}');">
+      <div class="inizio-content">
         <h1>Formazione in quota, Dinamiche Verticali</h1>
-        <p class="hero-desc">${dati.sito.descrizione_breve}</p>
-        <div class="hero-actions">
+        <p class="inizio-desc">${dati.sito.descrizione_breve}</p>
+        <div class="inizio-actions">
           <a href="#corsi" class="btn btn-primary">Scopri i corsi</a>
           <a href="../contatti/contatti.html" class="btn btn-light">Contattaci</a>
         </div>
@@ -22,9 +22,9 @@ function mostraHero(dati) {
   `;
 }
 
-// Disegna i loghi dei partner/certificazioni sotto l'hero
+// Disegna i loghi dei partner/certificazioni sotto la sezione di apertura
 function mostraLoghiPartner(dati) {
-  const contenitore = document.querySelector("#heroPartners");
+  const contenitore = document.querySelector("#inizioPartners");
   if (!contenitore) return;
 
   contenitore.innerHTML = "";

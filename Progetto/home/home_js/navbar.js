@@ -30,7 +30,9 @@ function attivaRicercaNavbar() {
   const campoRicerca = document.querySelector("#navSearchInput");
   if (!bottoneRicerca || !contenitoreRicerca || !campoRicerca) return;
 
-  // Clic sulla lente: apre/chiude la casella di ricerca
+  // Clic sulla lente: apre/chiude la casella di ricerca.
+  // classList.toggle("open") aggiunge la classe "open" se non c'è,
+  // oppure la toglie se c'è già: è un interruttore acceso/spento.
   bottoneRicerca.addEventListener("click", function () {
     contenitoreRicerca.classList.toggle("open");
     if (contenitoreRicerca.classList.contains("open")) {

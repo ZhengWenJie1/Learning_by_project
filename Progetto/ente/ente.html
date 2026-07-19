@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ente certificato - Dinamiche Verticali Formazione</title>
+
+<!-- Ogni file CSS si occupa solo di UNA parte della pagina -->
+<link rel="stylesheet" href="ente_css/base.css">
+<link rel="stylesheet" href="ente_css/navbar.css">
+<link rel="stylesheet" href="ente_css/banner-dettaglio.css">
+<link rel="stylesheet" href="ente_css/layout.css">
+<link rel="stylesheet" href="ente_css/contenuto.css">
+<link rel="stylesheet" href="ente_css/formatori.css">
+<link rel="stylesheet" href="ente_css/sidebar-contatti.css">
+<link rel="stylesheet" href="ente_css/footer.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="../home/home.html" class="logo">
+      <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
+      <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+    </a>
+    <nav>
+      <a href="../home/home.html">FORMAZIONE</a>
+      <a href="../corsi/corsi.html">CORSI</a>
+      <a href="../news/news.html">BLOG</a>
+      <a href="../contatti/contatti.html">CONTATTI</a>
+    </nav>
+  </header>
+
+  <!-- BANNER CON FOTO DI SFONDO -->
+  <div class="banner-dettaglio" id="banner">
+    <div class="banner-testo">
+      <p class="banner-briciole" id="bannerBriciole">Enti certificati</p>
+      <h1 id="bannerTitolo">Certificazione</h1>
+      <p class="banner-sottotitolo" id="bannerSottotitolo"></p>
+    </div>
+  </div>
+
+  <div class="pagina-dettaglio">
+
+    <!-- COLONNA PRINCIPALE -->
+    <div class="colonna-principale">
+
+      <div class="blocco-testo">
+        <h2 id="enteTitoloSezione">Cos'è?</h2>
+        <p id="enteDescrizione"></p>
+      </div>
+
+      <div class="blocco-testo" id="enteDestinatariWrap">
+        <h2>A chi si rivolge la formazione?</h2>
+        <ul id="enteDestinatari"></ul>
+      </div>
+
+      <div class="blocco-testo" id="formatoriWrap">
+        <h2>Formatori</h2>
+        <div class="formatori-griglia" id="formatoriGriglia"></div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar-box">
+      <img id="sidebarFoto" src="" alt="">
+      <div class="sidebar-contenuto">
+        <h3>Contatti</h3>
+        <p>Vuoi maggiori informazioni su questa certificazione? Scrivici, ti risponderemo il prima possibile.</p>
+        <a href="../contatti/contatti.html" class="btn-contatti">Contattaci</a>
+        <a id="sidebarLinkSito" href="#" target="_blank" rel="noopener" class="btn-secondario">Sito ufficiale &rarr;</a>
+      </div>
+    </aside>
+
+  </div>
+
+  <footer id="siteFooter">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img id="footerLogoImg" src="" alt="" class="logo-img" style="display:none;">
+        <span id="footerLogoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+        <p id="footerPiva"></p>
+      </div>
+      <div class="footer-col">
+        <h4>Il centro</h4>
+        <a href="../home/home.html">Formazione</a>
+        <a href="../corsi/corsi.html">Corsi</a>
+        <a href="../news/news.html">Blog</a>
+        <a href="../contatti/contatti.html">Contatti</a>
+      </div>
+      <div class="footer-col" id="footerContatti">
+        <h4>Contatti</h4>
+      </div>
+      <div class="footer-col">
+        <h4>Seguici</h4>
+        <div class="footer-social" id="footerSocial"></div>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
+  </footer>
+
+  <!-- Ogni file JS si occupa solo di UNA parte della pagina.
+       "main.js" va per ultimo perché scarica i dati e avvia tutto -->
+  <script src="ente_js/navbar.js"></script>
+  <script src="ente_js/ente-banner.js"></script>
+  <script src="ente_js/ente-contenuto.js"></script>
+  <script src="ente_js/ente-sidebar.js"></script>
+  <script src="ente_js/footer.js"></script>
+  <script src="ente_js/main.js"></script>
+</body>
+</html>

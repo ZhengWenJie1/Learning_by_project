@@ -1,11 +1,11 @@
 /* ==========================================================
-   HERO.CSS
+   INIZIO.CSS
    Stili per la grande immagine di apertura con titolo,
    descrizione e pulsanti, più la riga dei loghi partner
    sotto l'immagine
    ========================================================== */
 
-.hero {
+.inizio {
   position: relative;
   min-height: 480px;
   display: flex;
@@ -14,13 +14,13 @@
   background: #241c15;
 }
 
-.hero-slides {
+.inizio-slides {
   position: relative;
   min-height: 400px;
   flex: 1;
 }
 
-.hero-slide {
+.inizio-slide {
   position: relative;
   min-height: 400px;
   display: flex;
@@ -30,14 +30,14 @@
   background-position: center !important;
 }
 
-.hero-content {
+.inizio-content {
   position: relative;
   z-index: 2;
   padding: 70px 60px 40px;
   max-width: 640px;
   color: #fff;
 }
-.hero-eyebrow {
+.inizio-eyebrow {
   font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -45,30 +45,30 @@
   margin-bottom: 14px;
   font-weight: 700;
 }
-.hero-content h1 {
+.inizio-content h1 {
   font-size: 40px;
   line-height: 1.2;
   margin-bottom: 18px;
   font-weight: 800;
 }
-.hero-content h1 span {
+.inizio-content h1 span {
   color: var(--orange-2);
 }
-.hero-desc {
+.inizio-desc {
   font-size: 15px;
   line-height: 1.6;
   color: #e8e2d8;
   margin-bottom: 28px;
   max-width: 480px;
 }
-.hero-actions {
+.inizio-actions {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
 }
 
 /* Riga con i loghi dei partner/certificazioni, sotto l'immagine */
-.hero-partners {
+.inizio-partners {
   position: relative;
   z-index: 2;
   width: 100%;
@@ -82,7 +82,7 @@
   align-self: flex-end;
   margin-top: auto;
 }
-.hero-partners img {
+.inizio-partners img {
   height: 34px;
   object-fit: contain;
   filter: grayscale(15%);

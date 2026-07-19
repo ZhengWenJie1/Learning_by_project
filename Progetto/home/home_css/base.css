@@ -57,7 +57,7 @@ img {
   color: var(--dark);
 }
 
-/* Pulsanti generici (li usiamo ad esempio nell'hero) */
+/* Pulsanti generici (li usiamo ad esempio nella sezione di apertura) */
 .btn {
   display: inline-block;
   padding: 12px 26px;

@@ -17,6 +17,9 @@ function attivaSchedeVista() {
     pannelloCorsi.style.display = isCalendario ? "none" : "block";
     pannelloCalendario.style.display = isCalendario ? "block" : "none";
 
+    // toggle(classe, condizione): se la condizione è true la classe
+    // viene aggiunta, se è false viene tolta. Qui: la scheda diventa
+    // "selected" solo se il suo data-view corrisponde alla vista scelta.
     schede.querySelectorAll(".view-tab").forEach(function (scheda) {
       scheda.classList.toggle("selected", scheda.dataset.view === vista);
     });

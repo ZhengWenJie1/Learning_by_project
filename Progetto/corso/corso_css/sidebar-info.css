@@ -1,0 +1,55 @@
+/* ==========================================================
+   SIDEBAR-INFO.CSS
+   Box laterale con le informazioni pratiche del corso
+   (durata, orario, quota, ecc.) e il pulsante di iscrizione
+   ========================================================== */
+
+.sidebar-box {
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 24px;
+}
+.sidebar-box h3 {
+  font-size: 15px;
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+
+.info-riga {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.info-riga:last-of-type {
+  border-bottom: none;
+}
+.info-riga .info-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #a08e7c;
+  font-weight: 700;
+}
+.info-riga .info-valore {
+  font-size: 13px;
+  color: var(--dark);
+  font-weight: 600;
+}
+
+.sidebar-box .btn-iscriviti {
+  display: block;
+  text-align: center;
+  background: var(--dark);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 18px;
+}
+.sidebar-box .btn-iscriviti:hover {
+  background: var(--orange);
+}

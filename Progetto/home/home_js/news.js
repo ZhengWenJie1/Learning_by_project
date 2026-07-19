@@ -20,6 +20,8 @@ function mostraNews(dati) {
 
   let htmlGriglia = "";
   newsDiEsempio.forEach(function (news, indice) {
+    // "%" (resto della divisione) fa in modo che, finite le immagini
+    // disponibili, si ricominci dalla prima invece di andare in errore
     const immagine = immagini.length ? immagini[indice % immagini.length] : "";
     htmlGriglia += `
       <a class="news-card" href="${portale}" target="_blank" rel="noopener">

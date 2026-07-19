@@ -1,0 +1,70 @@
+/* ==========================================================
+   ENTI.CSS
+   Stili per la lista degli enti certificati: ogni riga ha un
+   logo, un testo e un pulsante "Maggiori informazioni"
+   ========================================================== */
+
+.enti-lista {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.ente-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.ente-logo {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.ente-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ente-testo {
+  flex: 1;
+  min-width: 200px;
+}
+.ente-testo h2 {
+  font-size: 16px;
+  color: var(--dark);
+  margin-bottom: 6px;
+}
+.ente-testo p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.ente-btn {
+  display: inline-block;
+  background: var(--dark);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9px 18px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.ente-btn:hover {
+  background: var(--orange);
+}

@@ -1,0 +1,73 @@
+/* ==========================================================
+   CALENDARIO-GRIGLIA.CSS
+   Stili per i nomi dei giorni della settimana, le celle dei
+   giorni e le barre colorate delle sessioni corso
+   ========================================================== */
+
+.cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.cal-weekdays span {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+.cal-cell {
+  min-height: 74px;
+  border-radius: 6px;
+  padding: 4px;
+  background: #fbfbfb;
+}
+.cal-cell.empty {
+  background: none;
+}
+.cal-daynum {
+  font-size: 11px;
+  color: #aaa;
+  font-weight: 600;
+}
+.cal-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 3px;
+}
+.cal-bar {
+  display: block;
+  font-size: 9px;
+  line-height: 1.3;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cal-bar:hover {
+  filter: brightness(1.1);
+}
+.cal-empty {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-top: 16px;
+}
+
+@media (max-width: 700px) {
+  .cal-cell { min-height: 50px; }
+  .cal-bar { font-size: 8px; }
+  .cal-weekdays span { font-size: 9px; }
+}

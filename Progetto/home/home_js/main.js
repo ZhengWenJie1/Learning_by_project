@@ -6,11 +6,19 @@
 // (quelle funzioni sono definite negli altri file JS)
 // ==========================================================
 
+// fetch(JSON_PATH) chiede al browser di scaricare il file JSON.
+// Il download richiede un po' di tempo, quindi fetch restituisce
+// subito una "promessa" (Promise): un oggetto che dice "il risultato
+// arriverà più avanti". Con .then(...) diciamo cosa fare QUANDO il
+// risultato arriva; con .catch(...) cosa fare se qualcosa va storto.
 fetch(JSON_PATH)
   .then(function (risposta) {
     if (!risposta.ok) {
       throw new Error("Impossibile scaricare " + JSON_PATH);
     }
+    // risposta.json() legge il testo scaricato e lo trasforma in un
+    // oggetto JavaScript: anche questo richiede tempo, quindi
+    // restituisce a sua volta una Promise
     return risposta.json();
   })
   .then(function (dati) {
@@ -25,7 +33,7 @@ fetch(JSON_PATH)
 // riempiono la pagina
 function init(dati) {
   mostraLogo(dati.sito);
-  mostraHero(dati);
+  mostraInizio(dati);
   mostraLoghiPartner(dati);
   mostraFiltriCorsi(dati.corsi);
   mostraGrigliaCorsi(dati.corsi);

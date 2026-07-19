@@ -29,8 +29,13 @@ function mostraNewsPrincipale(dati) {
     { titolo: "Corso GWO BST: cosa aspettarsi", data: "15 Giu 2026" }
   ];
 
+  // .forEach(...) esegue la funzione per OGNI elemento dell'array:
+  // qui, per ogni news di esempio costruiamo un pezzo di HTML
   let htmlGriglia = "";
   newsDiEsempio.forEach(function (news, indice) {
+    // "%" è l'operatore resto: indice % immagini.length fa in modo che,
+    // quando l'indice supera il numero di immagini disponibili, si
+    // ricominci dalla prima invece di andare "fuori" dall'array.
     const immagine = immagini.length ? immagini[indice % immagini.length] : "";
 
     htmlGriglia += `

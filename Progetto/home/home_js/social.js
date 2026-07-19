@@ -32,6 +32,9 @@ function mostraSocial(social) {
 
   const rigaVideo = document.querySelector("#socialVideoRow");
   if (rigaVideo && DATI && DATI.video) {
+    // Prima .filter() tiene solo i video di YouTube "senza cookie",
+    // poi .slice(0, 2) prende solo i primi 2 dal risultato.
+    // Possiamo "incatenare" più metodi array uno dopo l'altro così.
     const videoDaMostrare = DATI.video
       .filter(function (video) {
         return video.url.includes("youtube-nocookie");

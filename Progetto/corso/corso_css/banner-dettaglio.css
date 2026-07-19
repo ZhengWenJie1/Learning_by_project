@@ -1,0 +1,49 @@
+/* ==========================================================
+   BANNER-DETTAGLIO.CSS
+   Banner in cima alla pagina, con una foto di sfondo, un velo
+   scuro sopra e il testo (briciole di pane, titolo, sottotitolo)
+   ========================================================== */
+
+.banner-dettaglio {
+  position: relative;
+  padding: 60px 40px;
+  color: #fff;
+  background-color: var(--dark);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Il "velo" scuro sopra la foto, per far leggere bene il testo.
+   ::before crea un elemento invisibile che riempie tutto il banner */
+.banner-dettaglio::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(20,15,10,.88) 30%, rgba(20,15,10,.5) 100%);
+}
+
+.banner-testo {
+  position: relative;
+  z-index: 1;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.banner-briciole {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--orange-2);
+  margin-bottom: 10px;
+}
+
+.banner-dettaglio h1 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.banner-sottotitolo {
+  font-size: 14px;
+  color: #e8e2d8;
+}

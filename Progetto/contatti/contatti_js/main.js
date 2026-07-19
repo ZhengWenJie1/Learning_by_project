@@ -6,6 +6,9 @@
 
 const JSON_PATH = "../data/dvformazione_data.json";
 
+// fetch scarica il file JSON. Restituisce una "promessa" (Promise):
+// il risultato non è pronto subito, quindi con .then(...) diciamo
+// cosa fare QUANDO arriva, e con .catch(...) cosa fare in caso di errore.
 fetch(JSON_PATH)
   .then(function (risposta) {
     if (!risposta.ok) {

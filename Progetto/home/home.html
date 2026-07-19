@@ -8,9 +8,11 @@
 <!-- Ogni file CSS si occupa solo di UNA parte della pagina -->
 <link rel="stylesheet" href="home_css/base.css">
 <link rel="stylesheet" href="home_css/navbar.css">
-<link rel="stylesheet" href="home_css/hero.css">
+<link rel="stylesheet" href="home_css/inizio.css">
 <link rel="stylesheet" href="home_css/corsi.css">
+<link rel="stylesheet" href="home_css/corsi-griglia.css">
 <link rel="stylesheet" href="home_css/calendario.css">
+<link rel="stylesheet" href="home_css/calendario-griglia.css">
 <link rel="stylesheet" href="home_css/chi-siamo.css">
 <link rel="stylesheet" href="home_css/news.css">
 <link rel="stylesheet" href="home_css/social.css">
@@ -28,8 +30,7 @@
     </a>
     <nav>
       <a href="home.html" class="active">FORMAZIONE</a>
-      <a href="home.html#corsi">CORSI</a>
-      <a href="home.html#calendario">CALENDARIO</a>
+      <a href="../corsi/corsi.html">CORSI</a>
       <a href="../news/news.html">BLOG</a>
       <a href="../contatti/contatti.html">CONTATTI</a>
     </nav>
@@ -39,10 +40,10 @@
     </div>
   </header>
 
-  <!-- HERO SLIDER -->
-  <section class="hero" id="hero">
-    <div class="hero-slides" id="heroSlides"></div>
-    <div class="hero-partners" id="heroPartners"></div>
+  <!-- SEZIONE DI APERTURA -->
+  <section class="inizio" id="inizio">
+    <div class="inizio-slides" id="inizioSlides"></div>
+    <div class="inizio-partners" id="inizioPartners"></div>
   </section>
 
   <!-- CORSI / CALENDARIO -->
@@ -155,8 +156,7 @@
       <div class="footer-col">
         <h4>Il centro</h4>
         <a href="home.html">Formazione</a>
-        <a href="home.html#corsi">Corsi</a>
-        <a href="home.html#calendario">Calendario</a>
+        <a href="../corsi/corsi.html">Corsi</a>
         <a href="../news/news.html">Blog</a>
         <a href="../contatti/contatti.html">Contatti</a>
       </div>
@@ -176,9 +176,11 @@
        "main.js" va per ultimo (scarica i dati e avvia tutto) -->
   <script src="home_js/stato.js"></script>
   <script src="home_js/navbar.js"></script>
-  <script src="home_js/hero.js"></script>
+  <script src="home_js/inizio.js"></script>
   <script src="home_js/corsi.js"></script>
+  <script src="home_js/corsi-griglia.js"></script>
   <script src="home_js/calendario.js"></script>
+  <script src="home_js/calendario-griglia.js"></script>
   <script src="home_js/schede.js"></script>
   <script src="home_js/chi-siamo.js"></script>
   <script src="home_js/news.js"></script>

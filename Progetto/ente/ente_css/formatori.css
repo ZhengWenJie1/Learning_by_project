@@ -1,0 +1,38 @@
+/* ==========================================================
+   FORMATORI.CSS
+   Griglia con le card dei formatori: foto, nome e ruolo
+   ========================================================== */
+
+.formatori-griglia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 700px) {
+  .formatori-griglia { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 460px) {
+  .formatori-griglia { grid-template-columns: 1fr; }
+}
+
+.formatore-card {
+  text-align: center;
+}
+.formatore-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #ddd;
+}
+.formatore-card .nome {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 2px;
+}
+.formatore-card .ruolo {
+  font-size: 11px;
+  color: #888;
+}
