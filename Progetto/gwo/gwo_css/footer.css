@@ -1,0 +1,98 @@
+/* ==========================================================
+   FOOTER.CSS
+   Stili per il piè di pagina completo della home: logo,
+   colonne di link, social e riga del copyright
+   ========================================================== */
+
+footer#siteFooter {
+  background: var(--dark);
+  color: #fff;
+  padding: 26px 32px;
+  margin: 0;
+  border-radius: 16px 16px 0 0;
+}
+.footer-top {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 30px;
+}
+@media (max-width: 800px) {
+  .footer-top { grid-template-columns: 1fr; }
+}
+
+/* Logo + indirizzo */
+.footer-brand-riga {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.footer-logo-icona {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.footer-logo-testo {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer-brand p {
+  font-size: 11px;
+  color: #cfc8bd;
+}
+
+/* Colonna "Enti certificatori e formativi" + "Seguici" */
+.footer-col h4 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.footer-seguici-titolo {
+  margin-top: 12px;
+}
+.footer-col a,
+.footer-col p {
+  display: block;
+  font-size: 12px;
+  color: #cfc8bd;
+  margin-bottom: 5px;
+}
+.footer-col a {
+  text-decoration: underline;
+}
+.footer-col a:hover {
+  color: #fff;
+}
+
+/* Icone social: quadratini arrotondati colorati */
+.footer-social {
+  display: flex;
+  gap: 6px;
+}
+.footer-social a {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+.footer-social .icona-linkedin { background: #0a66c2; }
+.footer-social .icona-instagram { background: radial-gradient(circle at 30% 110%, #fdf497, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+.footer-social .icona-facebook { background: #1877f2; }
+.footer-social .icona-youtube { background: #ff0000; }
+
+/* Colonna di destra: copyright, P.IVA, contatti */
+.footer-col-destra p {
+  color: #cfc8bd;
+}
+.footer-col-destra h4 {
+  margin-top: 10px;
+}

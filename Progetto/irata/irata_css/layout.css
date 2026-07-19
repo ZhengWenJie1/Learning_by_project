@@ -1,0 +1,21 @@
+/* ==========================================================
+   LAYOUT.CSS
+   Griglia a due colonne: il contenuto principale a sinistra e
+   la sidebar (box informazioni/contatti) a destra
+   ========================================================== */
+
+.pagina-dettaglio {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .pagina-dettaglio {
+    grid-template-columns: 1fr;
+  }
+}

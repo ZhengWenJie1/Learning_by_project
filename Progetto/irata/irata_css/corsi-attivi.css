@@ -1,0 +1,86 @@
+/* ==========================================================
+   CORSI-ATTIVI.CSS
+   Box laterale "Corsi attivi": un titolo e sotto una card con
+   la foto del corso, il badge dell'ente, il titolo, un pezzo
+   di descrizione, il logo "Powered by" e le info (giorni/sessioni)
+   ========================================================== */
+
+.corsi-attivi-titolo {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+
+.corso-attivo-card {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .1);
+}
+
+.corso-attivo-card .img {
+  height: 150px;
+  background: #ddd no-repeat center/cover;
+  position: relative;
+}
+
+.corso-attivo-card .badge-ente {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--dark);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.corso-attivo-card .info {
+  padding: 16px;
+}
+
+.corso-attivo-card .titolo {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.corso-attivo-card .descrizione {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777;
+  /* Taglia il testo a 3 righe e mette i puntini alla fine */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.corso-attivo-card .powered-da {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  color: #999;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #eee;
+}
+.corso-attivo-card .powered-da img {
+  height: 18px;
+}
+
+.corso-attivo-card .meta {
+  display: flex;
+  gap: 18px;
+  font-size: 12px;
+  color: #666;
+}

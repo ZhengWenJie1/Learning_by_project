@@ -28,7 +28,7 @@ const listaEnti = [
     corsi: [
       { testo: "Certificazione IRATA L1-L2-L3", link: "../corso/corso.html?id=irata-l1-l2-l3" }
     ],
-    link: "../ente/ente.html?sigla=IRATA"
+    link: "../irata/irata.html"
   },
   {
     logo: "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
@@ -46,7 +46,7 @@ const listaEnti = [
     corsi: [
       { testo: "GWO BST (FA+WAH+MH+FAW)", link: "../corso/corso.html?id=gwo-bst" }
     ],
-    link: "../ente/ente.html?sigla=GWO"
+    link: "../gwo/gwo.html"
   },
   {
     logo: "corsi_img/logo-itra.svg",

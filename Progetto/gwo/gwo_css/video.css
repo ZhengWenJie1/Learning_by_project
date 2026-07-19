@@ -1,0 +1,85 @@
+/* ==========================================================
+   VIDEO.CSS
+   Blocco "finto video": un rettangolo colorato con il logo,
+   il titolo del video e un bottone rosso di YouTube. Cliccando
+   si apre il video vero su YouTube in un'altra scheda.
+   ========================================================== */
+
+.video-box {
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 30px;
+  color: #fff;
+  background: linear-gradient(120deg, #1b2a4a 55%, #2f4a7a 100%);
+  margin-bottom: 10px;
+}
+
+.video-box .video-logo {
+  max-height: 26px;
+  margin-bottom: 30px;
+}
+
+.video-box .video-riga {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.video-box .video-play {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  background: #e83d3d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.video-box .video-etichetta {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #cdd6e8;
+  margin-bottom: 6px;
+}
+
+.video-box .video-titolo {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.video-box .video-sottotitolo {
+  font-size: 13px;
+  color: #cdd6e8;
+  margin-top: 4px;
+}
+
+.video-box .video-loghi {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 26px;
+}
+.video-box .video-loghi img {
+  height: 22px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.video-box .video-youtube {
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Versione viola/magenta, usata nella pagina GWO */
+.video-box.video-gwo {
+  background: linear-gradient(120deg, #3a1550 55%, #7a2f6a 100%);
+}
