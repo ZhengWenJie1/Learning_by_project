@@ -5,20 +5,7 @@
 // ==========================================================
 
 function mostraFooter(dati) {
-  const azienda = dati.sito || {};
   const contatti = dati.contatti || {};
-
-  // Logo (se non c'è l'immagine, resta il testo scritto nell'HTML)
-  const logoImmagine = document.querySelector("#footerLogoImg");
-  const logoTesto = document.querySelector("#footerLogoTesto");
-  if (azienda.logo && logoImmagine) {
-    logoImmagine.src = azienda.logo;
-    logoImmagine.alt = azienda.nome || "Logo";
-    logoImmagine.style.display = "block";
-    if (logoTesto) {
-      logoTesto.style.display = "none";
-    }
-  }
 
   // Indirizzo sotto al logo
   const boxIndirizzo = document.querySelector("#footerIndirizzo");
