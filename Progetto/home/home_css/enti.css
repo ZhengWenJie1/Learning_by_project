@@ -1,0 +1,84 @@
+/* ==========================================================
+   ENTI.CSS
+   Stili per la sezione scura sotto la foto di apertura, con
+   il titolo "Enti certificatori e formativi" e le 5 schede
+   con i loghi
+   ========================================================== */
+
+.enti {
+  background: var(--dark);
+  padding: 50px 40px 60px;
+  border-radius: 0 0 40px 40px; /* angoli arrotondati solo in basso */
+}
+
+.enti h2 {
+  color: #fff;
+  margin-bottom: 34px;
+}
+
+/* Riga con le 5 schede. Con "grid" e "auto-fit" le schede vanno
+   automaticamente a capo se lo schermo è stretto */
+.enti-griglia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* Ogni "ente" è composto dalla scatola bianca con il logo
+   e, sotto, dal link "X corsi attivi" */
+.ente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ente-scatola {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  margin-bottom: 14px;
+}
+
+.ente-scatola img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ente a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.ente a:hover {
+  color: var(--orange-2);
+}
+
+/* La scheda di ITRA non ha un file immagine: la ricreiamo
+   con testo su sfondo arancione */
+.ente-scatola-arancio {
+  background: var(--orange);
+  flex-direction: column;
+  gap: 6px;
+}
+.ente-itra-titolo {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.ente-itra-sotto {
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}

@@ -1,0 +1,39 @@
+/* ==========================================================
+   NEWS-CARD-BODY.CSS
+   Stili per la parte bianca sotto l'immagine di ogni card
+   news: descrizione, data/tempo di lettura e pulsante "Leggi"
+   ========================================================== */
+
+.news-body {
+  padding: 14px 16px 18px;
+  display: flex;
+  flex-direction: column;
+}
+.news-desc {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 14px;
+}
+.news-meta {
+  display: flex;
+  gap: 14px;
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 14px;
+}
+
+.news-btn {
+  display: block;
+  text-align: center;
+  border: 1.5px solid var(--dark);
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 20px;
+}
+.news-card:hover .news-btn {
+  background: var(--dark);
+  color: #fff;
+}

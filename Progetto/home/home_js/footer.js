@@ -1,13 +1,14 @@
 // ==========================================================
 // FOOTER.JS
-// Disegna il piè di pagina: logo, P.IVA, colonna contatti e
-// icone social
+// Disegna il piè di pagina: logo, indirizzo, enti certificatori,
+// social, copyright/P.IVA e box contatti
 // ==========================================================
 
 function mostraFooter(dati) {
   const azienda = dati.sito || {};
   const contatti = dati.contatti || {};
 
+  // Logo (se non c'è l'immagine, resta il testo scritto nell'HTML)
   const logoImmagine = document.querySelector("#footerLogoImg");
   const logoTesto = document.querySelector("#footerLogoTesto");
   if (azienda.logo && logoImmagine) {
@@ -19,42 +20,56 @@ function mostraFooter(dati) {
     }
   }
 
-  const partitaIva = document.querySelector("#footerPiva");
-  if (partitaIva && azienda.piva) {
-    partitaIva.textContent = `P.IVA ${azienda.piva}`;
+  // Indirizzo sotto al logo
+  const boxIndirizzo = document.querySelector("#footerIndirizzo");
+  if (boxIndirizzo && contatti.indirizzo) {
+    boxIndirizzo.textContent =
+      `${contatti.indirizzo.via}, ${contatti.indirizzo.cap} ${contatti.indirizzo.citta}`;
   }
 
-  const boxContatti = document.querySelector("#footerContatti");
-  if (boxContatti) {
-    let indirizzoTesto = "";
-    if (contatti.indirizzo) {
-      indirizzoTesto = `${contatti.indirizzo.via}, ${contatti.indirizzo.cap} ${contatti.indirizzo.citta} (${contatti.indirizzo.regione})`;
-    }
-    boxContatti.innerHTML = `
-      <h4>Contatti</h4>
-      <p>${indirizzoTesto}</p>
-      <p>${contatti.telefono || ""}</p>
-      <p>${contatti.email || ""}</p>
-      <p>${contatti.orari_telefono || ""}</p>
-    `;
+  // Colonna "Enti certificatori e formativi": lista fissa di link
+  const boxEnti = document.querySelector("#footerEnti");
+  if (boxEnti) {
+    const enti = ["IRATA", "GWO", "PETZL", "ITRA"];
+    let htmlEnti = "";
+    enti.forEach(function (ente) {
+      htmlEnti += `<a href="#">${ente}</a>`;
+    });
+    boxEnti.innerHTML = htmlEnti;
   }
 
+  // Icone social, colorate come i loghi originali
   const footerSocial = document.querySelector("#footerSocial");
   if (footerSocial && contatti.social) {
     const social = contatti.social;
     const voci = [
-      { url: social.facebook, icona: "📘" },
-      { url: social.instagram, icona: "📷" },
-      { url: social.linkedin, icona: "💼" },
-      { url: social.youtube, icona: "▶️" }
+      { url: social.linkedin, icona: "in", classe: "icona-linkedin" },
+      { url: social.instagram, icona: "📷", classe: "icona-instagram" },
+      { url: social.facebook, icona: "f", classe: "icona-facebook" },
+      { url: social.youtube, icona: "▶", classe: "icona-youtube" }
     ];
 
     let htmlSocial = "";
     voci.forEach(function (voce) {
       if (voce.url) {
-        htmlSocial += `<a href="${voce.url}" target="_blank" rel="noopener">${voce.icona}</a>`;
+        htmlSocial += `<a class="${voce.classe}" href="${voce.url}" target="_blank" rel="noopener">${voce.icona}</a>`;
       }
     });
     footerSocial.innerHTML = htmlSocial;
+  }
+
+  // Copyright e P.IVA (testo fisso, come nel resto del footer)
+  document.querySelector("#footerCopy").textContent = "© 2026 © Dinamiche Verticali srl";
+  document.querySelector("#footerPiva").textContent = "P. IVA 09686830010";
+
+  // Box "Contatti" con telefono, orari ed email
+  const boxContatti = document.querySelector("#footerContatti");
+  if (boxContatti) {
+    boxContatti.innerHTML = `
+      <h4>Contatti:</h4>
+      <p>${contatti.telefono || ""}</p>
+      <p>${contatti.orari_telefono || ""}</p>
+      <p>${contatti.email || ""}</p>
+    `;
   }
 }

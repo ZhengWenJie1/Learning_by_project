@@ -1,0 +1,42 @@
+/* ==========================================================
+   CHI-SIAMO-CARD.CSS
+   Stili per le card bianche con le caratteristiche del centro,
+   nella colonna destra della sezione "Chi siamo"
+   ========================================================== */
+
+.chi-siamo-features {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.feature-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--dark);
+}
+.feature-card .icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--cream-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+.feature-card .ftitle {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.feature-card .fdesc {
+  font-size: 11px;
+  color: #888;
+}

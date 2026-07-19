@@ -15,11 +15,11 @@
   margin-bottom: 30px;
 }
 .social-video {
-  width: 300px;
-  height: 170px;
-  border-radius: 10px;
+  width: 280px;
+  height: 280px;
+  border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  box-shadow: 0 4px 16px rgba(0,0,0,.12);
 }
 .social-video iframe {
   width: 100%;
@@ -27,7 +27,7 @@
   border: 0;
 }
 @media (max-width: 650px) {
-  .social-video { width: 100%; max-width: 340px; }
+  .social-video { width: 100%; max-width: 300px; height: auto; aspect-ratio: 1 / 1; }
 }
 
 .social-row {

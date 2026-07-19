@@ -33,14 +33,12 @@ fetch(JSON_PATH)
 // riempiono la pagina
 function init(dati) {
   mostraLogo(dati.sito);
-  mostraInizio(dati);
-  mostraLoghiPartner(dati);
   mostraFiltriCorsi(dati.corsi);
   mostraGrigliaCorsi(dati.corsi);
-  mostraChiSiamo(dati);
   mostraNews(dati);
   mostraSocial(dati.contatti ? dati.contatti.social : {});
   mostraSede(dati);
+  mostraTestoFinale(dati);
   mostraFooter(dati);
 
   costruisciEventiCalendario(dati.corsi);

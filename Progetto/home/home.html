@@ -9,12 +9,16 @@
 <link rel="stylesheet" href="home_css/base.css">
 <link rel="stylesheet" href="home_css/navbar.css">
 <link rel="stylesheet" href="home_css/inizio.css">
+<link rel="stylesheet" href="home_css/inizio-cta.css">
+<link rel="stylesheet" href="home_css/enti.css">
 <link rel="stylesheet" href="home_css/corsi.css">
 <link rel="stylesheet" href="home_css/corsi-griglia.css">
 <link rel="stylesheet" href="home_css/calendario.css">
 <link rel="stylesheet" href="home_css/calendario-griglia.css">
 <link rel="stylesheet" href="home_css/chi-siamo.css">
+<link rel="stylesheet" href="home_css/chi-siamo-card.css">
 <link rel="stylesheet" href="home_css/news.css">
+<link rel="stylesheet" href="home_css/news-card-body.css">
 <link rel="stylesheet" href="home_css/social.css">
 <link rel="stylesheet" href="home_css/sede.css">
 <link rel="stylesheet" href="home_css/testo-finale.css">
@@ -31,19 +35,87 @@
     <nav>
       <a href="home.html" class="active">FORMAZIONE</a>
       <a href="../corsi/corsi.html">CORSI</a>
-      <a href="../news/news.html">BLOG</a>
+      <a href="../news/news.html">NEWS</a>
       <a href="../contatti/contatti.html">CONTATTI</a>
     </nav>
-    <div class="nav-search-wrap">
-      <input type="text" id="navSearchInput" class="nav-search-input" placeholder="Cerca un corso...">
+    <div class="nav-search-wrap open">
       <button class="nav-search" id="navSearchBtn" aria-label="Cerca">&#128269;</button>
+      <input type="text" id="navSearchInput" class="nav-search-input" placeholder="Cerca nel sito">
     </div>
   </header>
 
-  <!-- SEZIONE DI APERTURA -->
+  <!-- SEZIONE DI APERTURA (hero) con carosello: la freccia a destra
+       fa passare da un'immagine all'altra. I testi e i bottoni
+       vengono scritti da home_js/inizio.js -->
   <section class="inizio" id="inizio">
-    <div class="inizio-slides" id="inizioSlides"></div>
-    <div class="inizio-partners" id="inizioPartners"></div>
+
+    <!-- Foto grande di sfondo con il testo sopra -->
+    <div class="inizio-hero" id="inizioHero">
+
+      <!-- Freccia per passare all'immagine successiva -->
+      <button class="inizio-freccia" id="inizioFreccia" type="button" aria-label="Immagine successiva">&#10095;</button>
+
+      <!-- Riga in basso: testo a sinistra, bottoni a destra -->
+      <div class="inizio-bottom" id="inizioBottom">
+        <div class="inizio-content">
+          <p class="inizio-eyebrow" id="inizioEyebrow"></p>
+          <h1 id="inizioTitolo"></h1>
+          <p class="inizio-desc" id="inizioDesc"></p>
+        </div>
+        <div class="inizio-cta">
+          <p class="inizio-eyebrow inizio-eyebrow-cta" id="inizioCtaEyebrow"></p>
+          <div id="inizioCta"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Freccina in basso che invita a scorrere la pagina -->
+    <a href="#corsi" class="inizio-scroll" aria-label="Scorri verso il basso">&#8964;</a>
+  </section>
+
+  <!-- ENTI CERTIFICATORI E FORMATIVI -->
+  <section class="enti">
+    <h2>Enti certificatori e formativi</h2>
+
+    <div class="enti-griglia">
+
+      <div class="ente">
+        <div class="ente-scatola">
+          <img src="https://www.dvformazione.it/img/logo-dinamiche-verticali-formazione.svg" alt="Dinamiche Verticali Formazione">
+        </div>
+        <a href="../corsi/corsi.html">5 corsi attivi</a>
+      </div>
+
+      <div class="ente">
+        <div class="ente-scatola">
+          <img src="https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg" alt="Global Wind Organisation">
+        </div>
+        <a href="../corsi/corsi.html">1 corso attivo</a>
+      </div>
+
+      <div class="ente">
+        <div class="ente-scatola">
+          <img src="https://www.dvformazione.it/img/loghi/logo-irata-international.jpg" alt="IRATA International">
+        </div>
+        <a href="../corsi/corsi.html">1 corso attivo</a>
+      </div>
+
+      <div class="ente">
+        <div class="ente-scatola">
+          <img src="https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg" alt="Petzl Technical Institute">
+        </div>
+        <a href="../corsi/corsi.html">6 corsi attivi</a>
+      </div>
+
+      <div class="ente">
+        <div class="ente-scatola ente-scatola-arancio">
+          <span class="ente-itra-titolo">ITRA</span>
+          <span class="ente-itra-sotto">International Technical<br>Rescue Association</span>
+        </div>
+        <a href="../corsi/corsi.html">1 corso attivo</a>
+      </div>
+
+    </div>
   </section>
 
   <!-- CORSI / CALENDARIO -->
@@ -91,23 +163,76 @@
   </section>
 
   <!-- CHI SIAMO -->
-  <section class="chi-siamo-wrap">
-    <div class="chi-siamo">
-      <h2 id="chiSiamoTitolo">Chi siamo</h2>
+  <section class="chi-siamo">
+    <div class="chi-siamo-dentro">
+      <h2>Chi siamo</h2>
       <div class="chi-siamo-body">
+
         <div class="chi-siamo-testo">
-          <p id="chiSiamoTesto"></p>
-          <div class="stats" id="statsBox"></div>
+          <p><strong>Dinamiche Verticali Formazione</strong> è un centro specializzato nella formazione tecnica per il lavoro in quota, con un focus concreto su competenze, sicurezza e consulenza qualificata.</p>
+          <p>Operiamo sul territorio nazionale con percorsi rivolti sia alla rete vendita sia agli utilizzatori finali, affiancando formazione certificata e supporto tecnico continuo.</p>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="num">+18</div>
+              <div class="label">Corsi in programma</div>
+            </div>
+            <div class="stat">
+              <div class="num">15</div>
+              <div class="label">Anni di esperienza</div>
+            </div>
+            <div class="stat">
+              <div class="num">3.500+</div>
+              <div class="label">Tecnici formati</div>
+            </div>
+            <div class="stat">
+              <div class="num">5</div>
+              <div class="label">Certificazioni internazionali</div>
+            </div>
+          </div>
+
+          <a href="../corsi/corsi.html" class="btn-scopri">Scopri di più &rarr;</a>
         </div>
-        <div class="chi-siamo-features" id="featuresBox"></div>
+
+        <div class="chi-siamo-features">
+          <div class="feature-card">
+            <div class="icon">📈</div>
+            <div>
+              <div class="ftitle">Rete vendita e Petzl Solution</div>
+              <div class="fdesc">Formazione teorico-pratica per rendere la rete vendita un interlocutore competente e aggiornato su prodotti, normative e soluzioni tecniche.</div>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🎯</div>
+            <div>
+              <div class="ftitle">Corsi per rivenditori e tecnici</div>
+              <div class="fdesc">Approfondimenti su lavoro in quota, gamma anticaduta Petzl e consulenza tecnica per rispondere in modo efficace alle esigenze dei clienti.</div>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="icon">✅</div>
+            <div>
+              <div class="ftitle">Centro certificato IRATA e GWO</div>
+              <div class="fdesc">Formazione specializzata per lavori in altezza, spazi confinati, soccorso, IRATA e GWO, con docenti qualificati e percorsi professionali avanzati.</div>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🖥️</div>
+            <div>
+              <div class="ftitle">Formazione per utilizzatori finali</div>
+              <div class="fdesc">Percorsi dedicati all'uso corretto di prodotti come Exo, Lezard e Jag Rescue Kit, con focus su applicazioni pratiche e sicurezza.</div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- NEWS E AGGIORNAMENTI -->
   <section class="section news-sect">
-    <h2>News e aggiornamenti</h2>
-    <p class="news-sub">Resta aggiornato con le ultime novità del mondo della formazione in quota e su fune, sicurezza sul lavoro e nuovi corsi in programma.</p>
+    <h2>NEWS E AGGIORNAMENTI</h2>
+    <p class="news-sub">Resta connesso con <strong>Dinamiche Verticali</strong>!<br>Nella sezione <u>News</u> trovi tutte le ultime novità: appuntamenti, corsi, iniziative e aggiornamenti dal mondo della formazione e della sicurezza.</p>
     <div class="news-grid" id="newsGrid"></div>
   </section>
 
@@ -133,42 +258,42 @@
 
   <!-- TESTO DESCRITTIVO -->
   <section class="section testo-finale">
-    <h2 id="testoFinaleTitolo">Dinamiche Verticali, formazione pratica</h2>
-    <p id="testoFinale1">
-      Da anni affianchiamo aziende e professionisti nella formazione per il lavoro in quota, l'accesso su fune e la gestione
-      delle emergenze. Le nostre aule teoriche si integrano con strutture pratiche progettate per riprodurre le condizioni
-      reali di cantiere: ponteggi, tralicci, spazi confinati e sistemi di soccorso.
-    </p>
-    <p id="testoFinale2">
-      Ogni corso è tenuto da formatori certificati e costantemente aggiornati sugli standard internazionali IRATA, GWO e
-      Petzl Solutions, con l'obiettivo di trasmettere competenze solide e un approccio consapevole alla sicurezza.
-    </p>
+    <h2 id="testoFinaleTitolo">Dinamiche Verticali Formazione PTI Italy</h2>
+    <p id="testoFinale1"></p>
+    <p id="testoFinale2"></p>
+    <p id="testoFinale3"></p>
+    <ul class="testo-finale-lista" id="testoFinaleLista1"></ul>
+    <p id="testoFinale4"></p>
+    <ul class="testo-finale-lista" id="testoFinaleLista2"></ul>
+    <p id="testoFinale5"></p>
+    <div class="testo-finale-firma">
+      <strong id="firmaNome"></strong>
+      <span id="firmaRuolo"></span>
+    </div>
   </section>
 
   <!-- FOOTER -->
   <footer id="siteFooter">
     <div class="footer-top">
       <div class="footer-brand">
-        <img id="footerLogoImg" src="" alt="" class="logo-img" style="display:none;">
-        <span id="footerLogoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
-        <p id="footerPiva"></p>
+        <div class="footer-brand-riga">
+          <img id="footerLogoImg" src="" alt="" class="logo-img" style="display:none;">
+          <span id="footerLogoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
+        </div>
+        <p id="footerIndirizzo"></p>
       </div>
       <div class="footer-col">
-        <h4>Il centro</h4>
-        <a href="home.html">Formazione</a>
-        <a href="../corsi/corsi.html">Corsi</a>
-        <a href="../news/news.html">Blog</a>
-        <a href="../contatti/contatti.html">Contatti</a>
-      </div>
-      <div class="footer-col" id="footerContatti">
-        <h4>Contatti</h4>
-      </div>
-      <div class="footer-col">
-        <h4>Seguici</h4>
+        <h4>Enti certificatori e formativi:</h4>
+        <div id="footerEnti"></div>
+        <h4 class="footer-seguici-titolo">Seguici:</h4>
         <div class="footer-social" id="footerSocial"></div>
       </div>
+      <div class="footer-col footer-col-destra">
+        <p id="footerCopy"></p>
+        <p id="footerPiva"></p>
+        <div id="footerContatti"></div>
+      </div>
     </div>
-    <p class="footer-copy">&copy; 2026 Formazione Verticale - progetto in sviluppo</p>
   </footer>
 
   <!-- Ogni file JS si occupa solo di UNA parte della pagina.
@@ -182,10 +307,10 @@
   <script src="home_js/calendario.js"></script>
   <script src="home_js/calendario-griglia.js"></script>
   <script src="home_js/schede.js"></script>
-  <script src="home_js/chi-siamo.js"></script>
   <script src="home_js/news.js"></script>
   <script src="home_js/social.js"></script>
   <script src="home_js/sede.js"></script>
+  <script src="home_js/testo-finale.js"></script>
   <script src="home_js/footer.js"></script>
   <script src="home_js/main.js"></script>
 </body>

@@ -1,0 +1,93 @@
+/* ==========================================================
+   INIZIO-CTA.CSS
+   Stili per la riga in basso sulla foto di apertura: etichetta,
+   colonna dei bottoni e la freccina decorativa a destra
+   ========================================================== */
+
+/* Riga in basso: testo a sinistra, bottoni a destra.
+   align-items: flex-start fa partire le due colonne dalla
+   STESSA altezza (come nell'immagine), non dal basso */
+.inizio-bottom {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 60px 60px 50px;
+}
+
+/* Etichetta piccola sopra al titolo o sopra ai bottoni (es. "Novità") */
+.inizio-eyebrow {
+  color: #cfc6b8;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* Se l'etichetta è vuota (nessun testo), la nascondiamo del tutto */
+.inizio-eyebrow:empty {
+  display: none;
+}
+.inizio-eyebrow-cta {
+  text-align: right;
+}
+
+/* Colonna dei bottoni, sulla destra: i bottoni vanno uno
+   sotto l'altro, allineati a destra */
+.inizio-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#inizioCta {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+.inizio-cta .btn {
+  border-radius: 30px;
+  white-space: nowrap;
+}
+
+/* Freccia decorativa a destra, in mezzo all'immagine */
+.inizio-freccia {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0,0,0,.25);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.inizio-freccia:hover {
+  background: rgba(0,0,0,.45);
+}
+
+/* VERSIONE MOBILE (sotto i 700px) */
+@media (max-width: 700px) {
+  .inizio-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 24px 40px;
+  }
+  .inizio-cta,
+  #inizioCta {
+    align-items: flex-start;
+  }
+  .inizio-eyebrow-cta {
+    text-align: left;
+  }
+  .inizio-freccia {
+    display: none;
+  }
+}
