@@ -20,7 +20,7 @@
     "referente": {
       "nome": "Valentina Stancanelli",
       "ruolo": "Coordinatrice logistica formazione",
-      "foto": "https://www.dvformazione.it/img/valentina-stancanelli-coordinatrice-logistica-formazione-thumb.jpg"
+      "foto": "https://www.dvformazione.it/img/valentina-stancanelli-coordinatrice-logistica-formazione.jpg"
     },
     "telefono": "+39 011 27 32 500",
     "orari_telefono": "08:30-17:30, Lun-Ven",
@@ -96,9 +96,9 @@
       "video_presentazione": "https://youtu.be/fWyU06ZlqrQ?si=JOelgntqT4iOB8KJ",
       "video_embed": "https://www.youtube-nocookie.com/embed/_l28J0E18tQ?si=XfimI0KlOlXx1f7q",
       "loghi": {
-        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
+        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
         "footer": "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
-        "pagina_dedicata": "https://www.dvformazione.it/img/logo-petzl-thumb.png"
+        "pagina_dedicata": "https://www.dvformazione.it/img/logo-petzl.png"
       },
       "mappa_rete_pti": "https://www.google.com/maps/d/embed?mid=1vJVLRRVXSGz6ai3UOAfSSFq7y1jK8oPQ&ll=45.32000612173584%2C8.032467455716196&z=9",
       "destinatari": [
@@ -115,25 +115,25 @@
           "nome": "Giuseppe Barucco",
           "ruolo": "Formatore PTI - Guida Alpina",
           "lingue": ["IT", "FR"],
-          "foto": "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore.jpg"
         },
         {
           "nome": "Michele Perotti",
           "ruolo": "Formatore PTI - Guida Alpina",
           "lingue": ["IT", "EN", "FR"],
-          "foto": "https://www.dvformazione.it/img/formatori/michele-perotti-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/michele-perotti-formatore.jpg"
         },
         {
           "nome": "Alberto Fantone",
           "ruolo": "Formatore PTI - Guida Alpina",
           "lingue": ["IT", "FR"],
-          "foto": "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore.jpg"
         },
         {
           "nome": "Luigi Gagliardi",
           "ruolo": "Formatore PTI - Guida Alpina",
           "lingue": ["IT", "EN"],
-          "foto": "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore.jpg"
         }
       ]
     },
@@ -144,9 +144,9 @@
       "video_presentazione": "https://youtu.be/fWyU06ZlqrQ?si=JOelgntqT4iOB8KJ",
       "video_embed": "https://www.youtube-nocookie.com/embed/M48wXaOpppU?si=8JOBQSSeBGUh4nFQ",
       "loghi": {
-        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
+        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
         "footer": "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
-        "pagina_dedicata": "https://www.dvformazione.it/img/logo-irata-thumb.png"
+        "pagina_dedicata": "https://www.dvformazione.it/img/logo-irata.png"
       },
       "livelli": [
         {
@@ -167,13 +167,13 @@
           "nome": "Diego Maltenti",
           "ruolo": "IRATA Technical Authority, IRATA L3/i",
           "lingue": ["IT", "EN"],
-          "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore.jpg"
         },
         {
           "nome": "Franco Bignami",
           "ruolo": "IRATA L3/i",
           "lingue": ["IT"],
-          "foto": "https://www.dvformazione.it/img/formatori/franco-bignami-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/franco-bignami-formatore.jpg"
         }
       ]
     },
@@ -183,9 +183,9 @@
       "pagina": "https://www.dvformazione.it/gwo-formazione-certificazione.html",
       "video_embed": "https://www.youtube-nocookie.com/embed/GYmPUpWDKA0?si=oq1n1SP02msdB5Dz",
       "loghi": {
-        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
+        "home_thumb": "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
         "footer": "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
-        "pagina_dedicata": "https://www.dvformazione.it/img/logo-gwo-thumb.png"
+        "pagina_dedicata": "https://www.dvformazione.it/img/logo-gwo.png"
       },
       "moduli": [
         "First Aid",
@@ -200,7 +200,7 @@
           "nome": "Diego Maltenti",
           "ruolo": "Formatore GWO",
           "lingue": ["IT", "EN"],
-          "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore-thumb.jpg"
+          "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore.jpg"
         }
       ]
     }
@@ -231,7 +231,7 @@
       "quota_iscrizione": "1.000€+IVA",
       "sessioni_prossime": ["31/08/2026", "21/09/2026", "19/10/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/6_sito-6-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/6_sito-6.jpg",
         "https://admin.dvformazione.it/content/images/product/6_schermata-2023-06-14-alle-15-19-21.jpg"
       ]
     },
@@ -253,7 +253,7 @@
       "quota_iscrizione": "1.100€+IVA",
       "sessioni_prossime": ["19/10/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/20_sito-20-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/20_sito-20.jpg",
         "https://admin.dvformazione.it/content/images/product/20_01-utilisation-de-lasap-par-grand-vent.jpg"
       ]
     },
@@ -292,7 +292,7 @@
       "quota_iscrizione": "850€+IVA",
       "sessioni_prossime": ["22/07/2026", "09/09/2026", "21/10/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/7_sito-10-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/7_sito-10.jpg",
         "https://admin.dvformazione.it/content/images/product/7_schermata-2023-06-16-alle-15-54-53.jpg"
       ]
     },
@@ -322,7 +322,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": ["21/07/2026", "08/09/2026", "13/10/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/8_sito-8-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/8_sito-8.jpg",
         "https://admin.dvformazione.it/content/images/product/8_preview-01.jpg"
       ]
     },
@@ -358,7 +358,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": ["22/09/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/9_sito-7-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/9_sito-7.jpg",
         "https://admin.dvformazione.it/content/images/product/9_disegno-rev-pro-1.jpg"
       ]
     },
@@ -391,7 +391,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": ["23/09/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/10_sito-18-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/10_sito-18.jpg",
         "https://admin.dvformazione.it/content/images/product/10_disegno-rev-pro-2.jpg"
       ]
     },
@@ -424,7 +424,7 @@
       "quota_iscrizione": "550€+IVA",
       "sessioni_prossime": ["24/09/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/11_sito-4-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/11_sito-4.jpg",
         "https://admin.dvformazione.it/content/images/product/11_dessin-acces-sur-corde-rev-3.jpg"
       ]
     },
@@ -457,7 +457,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": [],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/12_sito-19-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/12_sito-19.jpg",
         "https://admin.dvformazione.it/content/images/product/12_k090aa00-jag-rescue-kit-30m-lowres.jpg"
       ]
     },
@@ -491,7 +491,7 @@
       "sessioni_prossime": [],
       "note": "Sul sito compaiono anche varianti 'LEZARD utilizzatori' e 'LEZARD formatori' che rimandano alla stessa scheda",
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/13_sito-2-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/13_sito-2.jpg",
         "https://admin.dvformazione.it/content/images/product/13_corsolezard-20171219094513.jpg"
       ]
     },
@@ -520,7 +520,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": [],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/19_sito-1-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/19_sito-1.jpg",
         "https://admin.dvformazione.it/content/images/product/19_foto-fune-alberi-2.jpg"
       ]
     },
@@ -553,7 +553,7 @@
       "sessioni_prossime": ["28/09/2026"],
       "note": "Nel form 'richiedi informazioni' compaiono anche i corsi correlati 'Aggiornamento lavoratori addetti ai sistemi di accesso e posizionamento mediante funi' e 'Preposti con funzioni di sorveglianza dei lavori temporanei in quota mediante funi', non presenti come schede singole",
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord.jpg",
         "https://admin.dvformazione.it/content/images/product/4_foto-fune-2.jpg"
       ]
     },
@@ -589,7 +589,7 @@
       "quota_iscrizione": "550€+IVA",
       "sessioni_prossime": ["22/09/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51.jpg",
         "https://admin.dvformazione.it/content/images/product/17_disegno-rev-pro-1.jpg"
       ]
     },
@@ -619,7 +619,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": [],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30.jpg",
         "https://admin.dvformazione.it/content/images/product/25_foto-fune.jpg"
       ]
     },
@@ -657,7 +657,7 @@
       "quota_iscrizione": "700€+IVA",
       "sessioni_prossime": ["14/09/2026"],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/29_sito-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/29_sito.jpg",
         "https://admin.dvformazione.it/content/images/product/29_screenshot-2024-03-12-alle-12-01-24.jpg"
       ]
     },
@@ -693,7 +693,7 @@
       "quota_iscrizione": "700€+IVA",
       "sessioni_prossime": [],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/30_news-thumb.jpg",
+        "https://admin.dvformazione.it/content/images/product/30_news.jpg",
         "https://admin.dvformazione.it/content/images/product/30_screenshot-2024-03-12-alle-12-04-27.jpg"
       ]
     }
@@ -716,17 +716,17 @@
     {
       "testo": "Accoglienti, preparati e professionali. Sempre eccezionale.",
       "autore": "Camilo - Edilizia Acrobatica",
-      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1-thumb.jpg"
+      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1.jpg"
     },
     {
       "testo": "Professionali e simpatici, sanno quello che fanno e lo trasmettono con passione.",
       "autore": "Erik M.",
-      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2-thumb.jpg"
+      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2.jpg"
     },
     {
       "testo": "Professionalità, competenza e organizzazione sono il punto di forza di questo centro di formazione.",
       "autore": "Marco - E-Distribuzione",
-      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-3-thumb.jpg"
+      "immagine": "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-3.jpg"
     }
   ],
   "direttore_tecnico": {
@@ -736,67 +736,67 @@
   "immagini_tutte": {
     "loghi_e_branding": [
       "https://www.dvformazione.it/img/logo-dinamiche-verticali-formazione.svg",
-      "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
       "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
-      "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
       "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
-      "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
+      "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
       "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
-      "https://www.dvformazione.it/img/logo-irata-thumb.png",
-      "https://www.dvformazione.it/img/logo-gwo-thumb.png",
-      "https://www.dvformazione.it/img/logo-petzl-thumb.png",
+      "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
+      "https://www.dvformazione.it/img/logo-irata.png",
+      "https://www.dvformazione.it/img/logo-gwo.png",
+      "https://www.dvformazione.it/img/logo-petzl.png",
       "https://dvformazione.it/img/certificazione-petzl-dinamiche-verticali-formazione.jpg",
       "https://www.dvformazione.it/img/favicon/ms-icon-144x144.png"
     ],
     "carosello_home": [
-      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-struttura-con-passatoia-thumb.jpg",
-      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1-thumb.jpg",
-      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-caschi-thumb.jpg",
-      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2-thumb.jpg",
-      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/capannone-ponteggio-dal-basso-thumb.jpg",
-      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-3-thumb.jpg"
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-struttura-con-passatoia.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-caschi.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/capannone-ponteggio-dal-basso.jpg",
+      "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-3.jpg"
     ],
     "formatori": [
-      "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore-thumb.jpg",
-      "https://www.dvformazione.it/img/formatori/franco-bignami-formatore-thumb.jpg",
-      "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore-thumb.jpg",
-      "https://www.dvformazione.it/img/formatori/michele-perotti-formatore-thumb.jpg",
-      "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore-thumb.jpg",
-      "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore-thumb.jpg"
+      "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore.jpg",
+      "https://www.dvformazione.it/img/formatori/franco-bignami-formatore.jpg",
+      "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore.jpg",
+      "https://www.dvformazione.it/img/formatori/michele-perotti-formatore.jpg",
+      "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore.jpg",
+      "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore.jpg"
     ],
     "staff": [
-      "https://www.dvformazione.it/img/valentina-stancanelli-coordinatrice-logistica-formazione-thumb.jpg"
+      "https://www.dvformazione.it/img/valentina-stancanelli-coordinatrice-logistica-formazione.jpg"
     ],
     "corsi_prodotto": [
-      "https://admin.dvformazione.it/content/images/product/6_sito-6-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/6_sito-6.jpg",
       "https://admin.dvformazione.it/content/images/product/6_schermata-2023-06-14-alle-15-19-21.jpg",
-      "https://admin.dvformazione.it/content/images/product/20_sito-20-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/20_sito-20.jpg",
       "https://admin.dvformazione.it/content/images/product/20_01-utilisation-de-lasap-par-grand-vent.jpg",
-      "https://admin.dvformazione.it/content/images/product/7_sito-10-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/7_sito-10.jpg",
       "https://admin.dvformazione.it/content/images/product/7_schermata-2023-06-16-alle-15-54-53.jpg",
-      "https://admin.dvformazione.it/content/images/product/8_sito-8-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/8_sito-8.jpg",
       "https://admin.dvformazione.it/content/images/product/8_preview-01.jpg",
-      "https://admin.dvformazione.it/content/images/product/9_sito-7-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/9_sito-7.jpg",
       "https://admin.dvformazione.it/content/images/product/9_disegno-rev-pro-1.jpg",
-      "https://admin.dvformazione.it/content/images/product/10_sito-18-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/10_sito-18.jpg",
       "https://admin.dvformazione.it/content/images/product/10_disegno-rev-pro-2.jpg",
-      "https://admin.dvformazione.it/content/images/product/11_sito-4-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/11_sito-4.jpg",
       "https://admin.dvformazione.it/content/images/product/11_dessin-acces-sur-corde-rev-3.jpg",
-      "https://admin.dvformazione.it/content/images/product/12_sito-19-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/12_sito-19.jpg",
       "https://admin.dvformazione.it/content/images/product/12_k090aa00-jag-rescue-kit-30m-lowres.jpg",
-      "https://admin.dvformazione.it/content/images/product/13_sito-2-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/13_sito-2.jpg",
       "https://admin.dvformazione.it/content/images/product/13_corsolezard-20171219094513.jpg",
-      "https://admin.dvformazione.it/content/images/product/19_sito-1-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/19_sito-1.jpg",
       "https://admin.dvformazione.it/content/images/product/19_foto-fune-alberi-2.jpg",
-      "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord.jpg",
       "https://admin.dvformazione.it/content/images/product/4_foto-fune-2.jpg",
-      "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51.jpg",
       "https://admin.dvformazione.it/content/images/product/17_disegno-rev-pro-1.jpg",
-      "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30.jpg",
       "https://admin.dvformazione.it/content/images/product/25_foto-fune.jpg",
-      "https://admin.dvformazione.it/content/images/product/29_sito-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/29_sito.jpg",
       "https://admin.dvformazione.it/content/images/product/29_screenshot-2024-03-12-alle-12-01-24.jpg",
-      "https://admin.dvformazione.it/content/images/product/30_news-thumb.jpg",
+      "https://admin.dvformazione.it/content/images/product/30_news.jpg",
       "https://admin.dvformazione.it/content/images/product/30_screenshot-2024-03-12-alle-12-04-27.jpg"
     ]
   },

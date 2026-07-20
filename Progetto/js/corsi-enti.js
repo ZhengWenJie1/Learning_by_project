@@ -23,7 +23,7 @@ const listaEnti = [
     link: "../index.html#corsi"
   },
   {
-    logo: "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
+    logo: "https://www.dvformazione.it/img/loghi/logo-irata-international.jpg",
     nome: "IRATA",
     corsi: [
       { testo: "Certificazione IRATA L1-L2-L3", link: "corso.html?id=irata-l1-l2-l3" }
@@ -31,7 +31,7 @@ const listaEnti = [
     link: "irata.html"
   },
   {
-    logo: "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
+    logo: "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg",
     nome: "PTI",
     corsi: [
       { testo: "Aggiornamento Revisioni Periodiche DPI Petzl", link: "corso.html?id=pti-aggiornamento-revisioni" },
@@ -41,7 +41,7 @@ const listaEnti = [
     link: "ente.html?sigla=PTI"
   },
   {
-    logo: "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
+    logo: "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",
     nome: "GWO",
     corsi: [
       { testo: "GWO BST (FA+WAH+MH+FAW)", link: "corso.html?id=gwo-bst" }
