@@ -96,3 +96,8 @@ footer#siteFooter {
 .footer-col-destra h4 {
   margin-top: 10px;
 }
+
+.footer-logo {
+  max-height: 40px;
+  width: auto;
+}

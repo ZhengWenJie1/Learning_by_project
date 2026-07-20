@@ -11,3 +11,10 @@ footer {
   color: #999;
   border-top: 1px solid #eee;
 }
+
+.footer-logo-semplice {
+  display: block;
+  max-height: 34px;
+  width: auto;
+  margin: 0 auto 10px;
+}
