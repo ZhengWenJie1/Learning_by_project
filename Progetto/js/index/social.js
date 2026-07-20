@@ -10,10 +10,10 @@ function mostraSocial(social) {
   const riga = document.querySelector("#socialRow");
   if (riga) {
     const reteSociali = [
-      { chiave: "facebook", etichetta: "Facebook", icona: "📘" },
-      { chiave: "instagram", etichetta: "Instagram", icona: "📷" },
-      { chiave: "linkedin", etichetta: "LinkedIn", icona: "💼" },
-      { chiave: "youtube", etichetta: "YouTube", icona: "▶️" }
+      { chiave: "facebook", etichetta: "Facebook", icona: "./image/icons/facebook.png" },
+      { chiave: "instagram", etichetta: "Instagram", icona: "./image/icons/instagram.png" },
+      { chiave: "linkedin", etichetta: "LinkedIn", icona: "./image/icons/linkedin.png" },
+      { chiave: "youtube", etichetta: "YouTube", icona: "./image/icons/youtube.png" }
     ];
 
     let htmlRiga = "";
@@ -22,7 +22,7 @@ function mostraSocial(social) {
       if (url) {
         htmlRiga += `
           <a href="${url}" target="_blank" rel="noopener">
-            <span class="icon">${rete.icona}</span> ${rete.etichetta}
+            <span class="icon"><img src="${rete.icona}" alt="${rete.etichetta}"></span> ${rete.etichetta}
           </a>
         `;
       }

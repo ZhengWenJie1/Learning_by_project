@@ -55,6 +55,11 @@
   justify-content: center;
   font-size: 18px;
 }
+.social-row .icon img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
 .social-row a:hover .icon {
   background: var(--orange);
   color: #fff;

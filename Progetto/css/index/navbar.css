@@ -26,12 +26,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  flex: 0 0 auto;
+  min-width: max-content;
 }
 .logo span {
   color: var(--orange);
 }
 .logo-img {
-  max-height: 34px;
+  width: auto;
+  height: 34px;
   max-width: 130px;
   object-fit: contain;
 }

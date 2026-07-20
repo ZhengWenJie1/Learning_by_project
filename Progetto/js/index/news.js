@@ -101,8 +101,8 @@ function mostraNews(dati) {
         <div class="news-body">
           <p class="news-desc">${descrizione}</p>
           <div class="news-meta">
-            <span>📅 ${dataSessione}</span>
-            <span>⏱ ${minuti} minuti</span>
+            <span><img src="./image/icons/calendar.png" class="icon-inline" alt="">${dataSessione}</span>
+            <span><img src="./image/icons/clock.png" class="icon-inline" alt="">${minuti} minuti</span>
           </div>
           <span class="news-btn">Leggi</span>
         </div>

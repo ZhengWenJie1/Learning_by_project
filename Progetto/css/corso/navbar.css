@@ -30,7 +30,8 @@
   color: var(--orange);
 }
 .logo-img {
-  max-height: 34px;
+  width: auto;
+  height: 34px;
   max-width: 130px;
   object-fit: contain;
 }

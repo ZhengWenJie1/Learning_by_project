@@ -11,14 +11,30 @@ function mostraLogo(sito) {
 
   const immagineLogo = document.querySelector("#logoImg");
   const testoLogo = document.querySelector("#logoTesto");
+  const fallbackLogo = "./image/logo-dinamiche-verticali-formazione.svg";
 
-  if (sito.logo && immagineLogo) {
-    immagineLogo.src = sito.logo;
+  if (!immagineLogo) return;
+
+  function applyLogo(src) {
+    immagineLogo.src = src;
     immagineLogo.alt = sito.nome || "Logo";
     immagineLogo.style.display = "block";
     if (testoLogo) {
       testoLogo.style.display = "none";
     }
+  }
+
+  if (sito.logo) {
+    const testImage = new Image();
+    testImage.onload = function () {
+      applyLogo(sito.logo);
+    };
+    testImage.onerror = function () {
+      applyLogo(fallbackLogo);
+    };
+    testImage.src = sito.logo;
+  } else {
+    applyLogo(fallbackLogo);
   }
 }
 

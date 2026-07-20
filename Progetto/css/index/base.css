@@ -44,6 +44,19 @@ img {
   display: block;
 }
 
+/* Icona piccola incorporata dentro una riga di testo (es. data, durata) */
+.icon-inline {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  object-fit: contain;
+  vertical-align: -1px;
+  margin-right: 4px;
+}
+.btn-primary .icon-inline {
+  filter: brightness(0) invert(1);
+}
+
 /* Contenitore standard usato da quasi tutte le sezioni della pagina */
 .section {
   padding: 60px 40px;

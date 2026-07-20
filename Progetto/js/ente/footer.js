@@ -43,16 +43,16 @@ function mostraFooter(dati) {
   if (footerSocial && contatti.social) {
     const social = contatti.social;
     const voci = [
-      { url: social.facebook, icona: "📘" },
-      { url: social.instagram, icona: "📷" },
-      { url: social.linkedin, icona: "💼" },
-      { url: social.youtube, icona: "▶️" }
+      { url: social.facebook, icona: "../image/icons/facebook.png", etichetta: "Facebook" },
+      { url: social.instagram, icona: "../image/icons/instagram.png", etichetta: "Instagram" },
+      { url: social.linkedin, icona: "../image/icons/linkedin.png", etichetta: "LinkedIn" },
+      { url: social.youtube, icona: "../image/icons/youtube.png", etichetta: "YouTube" }
     ];
 
     let htmlSocial = "";
     voci.forEach(function (voce) {
       if (voce.url) {
-        htmlSocial += `<a href="${voce.url}" target="_blank" rel="noopener">${voce.icona}</a>`;
+        htmlSocial += `<a href="${voce.url}" target="_blank" rel="noopener"><img src="${voce.icona}" alt="${voce.etichetta}"></a>`;
       }
     });
     footerSocial.innerHTML = htmlSocial;

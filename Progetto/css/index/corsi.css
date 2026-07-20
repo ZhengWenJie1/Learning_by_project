@@ -39,17 +39,9 @@
   margin: 24px auto 20px;
   position: relative;
 }
-.search-icon {
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #aaa;
-  font-size: 13px;
-}
 #searchInput {
   width: 100%;
-  padding: 10px 14px 10px 34px;
+  padding: 10px 14px;
   border-radius: 20px;
   border: 1px solid #ddd;
   font-size: 13px;

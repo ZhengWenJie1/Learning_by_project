@@ -44,7 +44,7 @@ function mostraGrigliaCorsi(corsi) {
     // È un if/else scritto in una riga sola.
     const etichettaNuovo = indice < 3 ? '<span class="badge-nuovo">Nuovo</span>' : "";
     const testoData = prossimaSessione
-      ? `📅 Prossima sessione: ${prossimaSessione}`
+      ? `<img src="./image/icons/calendar.png" class="icon-inline" alt="">Prossima sessione: ${prossimaSessione}`
       : "📍 Torino – su richiesta";
 
     htmlGriglia += `

@@ -84,3 +84,10 @@
   font-size: 12px;
   color: #666;
 }
+.corso-attivo-card .meta img {
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  vertical-align: -2px;
+  margin-right: 4px;
+}

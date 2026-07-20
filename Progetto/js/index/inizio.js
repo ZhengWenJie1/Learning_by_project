@@ -18,7 +18,7 @@ const inizioSlides = [
     descrizione: "Corsi IRATA, GWO e DPI erogati da istruttori senior con oltre 15 anni di esperienza operativa. Preparati ai lavori su fune, spazi confinati e turbine eoliche.",
     bottoni: [
       { testo: "Vedi i corsi &rarr;", link: "page/corsi.html", classe: "btn-light" },
-      { testo: "Vai al calendario &#128197;", link: "#corsi", classe: "btn-primary" }
+      { testo: "Vai al calendario <img src=\"./image/icons/calendar.png\" class=\"icon-inline\" alt=\"\">", link: "#corsi", classe: "btn-primary" }
     ]
   },
   {
