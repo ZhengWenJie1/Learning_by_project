@@ -17,7 +17,7 @@ const inizioSlides = [
     titolo: 'Formazione in altezza.<br><span class="inizio-arancio">Certificazioni</span> riconosciute.',
     descrizione: "Corsi IRATA, GWO e DPI erogati da istruttori senior con oltre 15 anni di esperienza operativa. Preparati ai lavori su fune, spazi confinati e turbine eoliche.",
     bottoni: [
-      { testo: "Vedi i corsi &rarr;", link: "../corsi/corsi.html", classe: "btn-light" },
+      { testo: "Vedi i corsi &rarr;", link: "page/corsi.html", classe: "btn-light" },
       { testo: "Vai al calendario &#128197;", link: "#corsi", classe: "btn-primary" }
     ]
   },
@@ -28,7 +28,7 @@ const inizioSlides = [
     titolo: '<span class="inizio-arancio">ITRA</span> - Soccorso Tecnico',
     descrizione: "Montaggio e gestione di sistemi di sollevamento, vantaggio meccanico e prestazioni.",
     bottoni: [
-      { testo: "Vai al corso &rarr;", link: "../corsi/corsi.html", classe: "btn-light" }
+      { testo: "Vai al corso &rarr;", link: "page/corsi.html", classe: "btn-light" }
     ]
   },
   {
@@ -38,7 +38,7 @@ const inizioSlides = [
     titolo: '<span class="inizio-arancio">IRATA</span> - Accesso su fune',
     descrizione: "Corsi di livello 1, 2 e 3 per lavorare in sicurezza con tecniche di accesso su corda doppia.",
     bottoni: [
-      { testo: "Vai al corso &rarr;", link: "../corsi/corsi.html", classe: "btn-light" }
+      { testo: "Vai al corso &rarr;", link: "page/corsi.html", classe: "btn-light" }
     ]
   }
 ];

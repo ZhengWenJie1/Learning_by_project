@@ -4,7 +4,7 @@
 // in ordine tutte le funzioni che riempiono la pagina
 // ==========================================================
 
-const JSON_PATH = "../data/dvformazione_data.json";
+const JSON_PATH = "../dati/dvformazione_data.json";
 
 // fetch scarica il file JSON. Restituisce una "promessa" (Promise):
 // il risultato non è pronto subito, quindi con .then(...) diciamo
@@ -17,15 +17,14 @@ fetch(JSON_PATH)
     return risposta.json();
   })
   .then(function (dati) {
-    const corso = trovaCorsoCorrente(dati);
+    const ente = trovaEnteCorrente(dati);
 
     mostraLogo(dati.sito);
-    mostraBannerCorso(corso);
-    mostraDescrizioneCorso(corso);
-    mostraElenco("#corsoObiettiviWrap", "#corsoObiettivi", corso.obiettivi);
-    mostraElenco("#corsoDestinatariWrap", "#corsoDestinatari", corso.destinatari);
-    mostraCorsoSessioni(corso);
-    mostraSidebarCorso(corso);
+    mostraBannerEnte(ente, dati);
+    mostraDescrizioneEnte(ente);
+    mostraDestinatariEnte(ente);
+    mostraFormatoriEnte(ente);
+    mostraSidebarEnte(ente, dati);
     mostraFooter(dati);
   })
   .catch(function (errore) {

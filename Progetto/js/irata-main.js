@@ -6,7 +6,7 @@
 // che sono UGUALI in tutte le pagine del sito.
 // ==========================================================
 
-const JSON_PATH = "../data/dvformazione_data.json";
+const JSON_PATH = "../dati/dvformazione_data.json";
 
 fetch(JSON_PATH)
   .then(function (risposta) {

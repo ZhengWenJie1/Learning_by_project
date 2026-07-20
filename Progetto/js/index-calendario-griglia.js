@@ -71,7 +71,7 @@ function mostraCalendario() {
     eventiDelGiorno.forEach(function (evento) {
       const isInizio = stessoGiorno(dataCorrente, evento.inizio);
       const testoBarra = isInizio ? evento.titolo : "…" + evento.titolo;
-      htmlBarre += `<a class="cal-bar" href="../corso/corso.html?id=${evento.corsoId}" style="background:${evento.colore};" title="${evento.titolo}">${testoBarra}</a>`;
+      htmlBarre += `<a class="cal-bar" href="page/corso.html?id=${evento.corsoId}" style="background:${evento.colore};" title="${evento.titolo}">${testoBarra}</a>`;
     });
 
     htmlCelle += `

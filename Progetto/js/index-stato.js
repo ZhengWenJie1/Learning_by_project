@@ -6,7 +6,7 @@
 // ==========================================================
 
 // Percorso del file JSON con tutti i dati del centro corsi
-const JSON_PATH = "../data/dvformazione_data.json";
+const JSON_PATH = "dati/dvformazione_data.json";
 
 // Per ogni categoria di corso teniamo un id "corto", un nome da
 // mostrare, un colore e un'icona (emoji)

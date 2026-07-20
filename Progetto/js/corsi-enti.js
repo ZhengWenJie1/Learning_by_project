@@ -20,41 +20,41 @@ const listaEnti = [
       "Aggiornamento lavoratori addetti ai sistemi di accesso e posizionamento mediante funi",
       "Preposti con funzioni di sorveglianza dei lavori temporanei in quota mediante funi"
     ],
-    link: "../home/home.html#corsi"
+    link: "../index.html#corsi"
   },
   {
     logo: "https://www.dvformazione.it/img/loghi/logo-irata-international-thumb.jpg",
     nome: "IRATA",
     corsi: [
-      { testo: "Certificazione IRATA L1-L2-L3", link: "../corso/corso.html?id=irata-l1-l2-l3" }
+      { testo: "Certificazione IRATA L1-L2-L3", link: "corso.html?id=irata-l1-l2-l3" }
     ],
-    link: "../irata/irata.html"
+    link: "irata.html"
   },
   {
     logo: "https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute-thumb.jpg",
     nome: "PTI",
     corsi: [
-      { testo: "Aggiornamento Revisioni Periodiche DPI Petzl", link: "../corso/corso.html?id=pti-aggiornamento-revisioni" },
-      { testo: "Revisioni Periodiche DPI Petzl", link: "../corso/corso.html?id=pti-revisioni-periodiche" },
-      { testo: "Modulo rivenditori PRO L1-L2-L3", link: "../corso/corso.html?id=pti-rivenditori-pro-1" }
+      { testo: "Aggiornamento Revisioni Periodiche DPI Petzl", link: "corso.html?id=pti-aggiornamento-revisioni" },
+      { testo: "Revisioni Periodiche DPI Petzl", link: "corso.html?id=pti-revisioni-periodiche" },
+      { testo: "Modulo rivenditori PRO L1-L2-L3", link: "corso.html?id=pti-rivenditori-pro-1" }
     ],
-    link: "../ente/ente.html?sigla=PTI"
+    link: "ente.html?sigla=PTI"
   },
   {
     logo: "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation-thumb.jpg",
     nome: "GWO",
     corsi: [
-      { testo: "GWO BST (FA+WAH+MH+FAW)", link: "../corso/corso.html?id=gwo-bst" }
+      { testo: "GWO BST (FA+WAH+MH+FAW)", link: "corso.html?id=gwo-bst" }
     ],
-    link: "../gwo/gwo.html"
+    link: "gwo.html"
   },
   {
-    logo: "corsi_img/logo-itra.svg",
+    logo: "../image/logo-itra.svg",
     nome: "ITRA",
     corsi: [
-      { testo: "ITRA - Soccorso Tecnico", link: "../ente/ente.html?sigla=ITRA" }
+      { testo: "ITRA - Soccorso Tecnico", link: "ente.html?sigla=ITRA" }
     ],
-    link: "../ente/ente.html?sigla=ITRA"
+    link: "ente.html?sigla=ITRA"
   }
 ];
 

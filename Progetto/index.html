@@ -6,37 +6,37 @@
 <title>Dinamiche Verticali Formazione</title>
 
 <!-- Ogni file CSS si occupa solo di UNA parte della pagina -->
-<link rel="stylesheet" href="home_css/base.css">
-<link rel="stylesheet" href="home_css/navbar.css">
-<link rel="stylesheet" href="home_css/inizio.css">
-<link rel="stylesheet" href="home_css/inizio-cta.css">
-<link rel="stylesheet" href="home_css/enti.css">
-<link rel="stylesheet" href="home_css/corsi.css">
-<link rel="stylesheet" href="home_css/corsi-griglia.css">
-<link rel="stylesheet" href="home_css/calendario.css">
-<link rel="stylesheet" href="home_css/calendario-griglia.css">
-<link rel="stylesheet" href="home_css/chi-siamo.css">
-<link rel="stylesheet" href="home_css/chi-siamo-card.css">
-<link rel="stylesheet" href="home_css/news.css">
-<link rel="stylesheet" href="home_css/news-card-body.css">
-<link rel="stylesheet" href="home_css/social.css">
-<link rel="stylesheet" href="home_css/sede.css">
-<link rel="stylesheet" href="home_css/testo-finale.css">
-<link rel="stylesheet" href="home_css/footer.css">
+<link rel="stylesheet" href="css/index/base.css">
+<link rel="stylesheet" href="css/index/navbar.css">
+<link rel="stylesheet" href="css/index/inizio.css">
+<link rel="stylesheet" href="css/index/inizio-cta.css">
+<link rel="stylesheet" href="css/index/enti.css">
+<link rel="stylesheet" href="css/index/corsi.css">
+<link rel="stylesheet" href="css/index/corsi-griglia.css">
+<link rel="stylesheet" href="css/index/calendario.css">
+<link rel="stylesheet" href="css/index/calendario-griglia.css">
+<link rel="stylesheet" href="css/index/chi-siamo.css">
+<link rel="stylesheet" href="css/index/chi-siamo-card.css">
+<link rel="stylesheet" href="css/index/news.css">
+<link rel="stylesheet" href="css/index/news-card-body.css">
+<link rel="stylesheet" href="css/index/social.css">
+<link rel="stylesheet" href="css/index/sede.css">
+<link rel="stylesheet" href="css/index/testo-finale.css">
+<link rel="stylesheet" href="css/index/footer.css">
 </head>
 <body>
 
   <!-- HEADER / NAV -->
   <header class="navbar">
-    <a href="home.html" class="logo" id="logoLink">
+    <a href="index.html" class="logo" id="logoLink">
       <img id="logoImg" src="" alt="" class="logo-img" style="display:none;">
       <span id="logoTesto">FORMAZIONE<br><span>VERTICALE</span></span>
     </a>
     <nav>
-      <a href="home.html" class="active">FORMAZIONE</a>
-      <a href="../corsi/corsi.html">CORSI</a>
-      <a href="../news/news.html">NEWS</a>
-      <a href="../contatti/contatti.html">CONTATTI</a>
+      <a href="index.html" class="active">FORMAZIONE</a>
+      <a href="page/corsi.html">CORSI</a>
+      <a href="page/news.html">BLOG</a>
+      <a href="page/contatti.html">CONTATTI</a>
     </nav>
     <div class="nav-search-wrap open">
       <button class="nav-search" id="navSearchBtn" aria-label="Cerca">&#128269;</button>
@@ -46,7 +46,7 @@
 
   <!-- SEZIONE DI APERTURA (hero) con carosello: la freccia a destra
        fa passare da un'immagine all'altra. I testi e i bottoni
-       vengono scritti da home_js/inizio.js -->
+       vengono scritti da js/home-inizio.js -->
   <section class="inizio" id="inizio">
 
     <!-- Foto grande di sfondo con il testo sopra -->
@@ -83,28 +83,28 @@
         <div class="ente-scatola">
           <img src="https://www.dvformazione.it/img/logo-dinamiche-verticali-formazione.svg" alt="Dinamiche Verticali Formazione">
         </div>
-        <a href="../corsi/corsi.html">5 corsi attivi</a>
+        <a href="page/corsi.html">5 corsi attivi</a>
       </div>
 
       <div class="ente">
         <div class="ente-scatola">
           <img src="https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg" alt="Global Wind Organisation">
         </div>
-        <a href="../corsi/corsi.html">1 corso attivo</a>
+        <a href="page/corsi.html">1 corso attivo</a>
       </div>
 
       <div class="ente">
         <div class="ente-scatola">
           <img src="https://www.dvformazione.it/img/loghi/logo-irata-international.jpg" alt="IRATA International">
         </div>
-        <a href="../corsi/corsi.html">1 corso attivo</a>
+        <a href="page/corsi.html">1 corso attivo</a>
       </div>
 
       <div class="ente">
         <div class="ente-scatola">
           <img src="https://www.dvformazione.it/img/loghi/logo-petzl-technical-institute.jpg" alt="Petzl Technical Institute">
         </div>
-        <a href="../corsi/corsi.html">6 corsi attivi</a>
+        <a href="page/corsi.html">6 corsi attivi</a>
       </div>
 
       <div class="ente">
@@ -112,7 +112,7 @@
           <span class="ente-itra-titolo">ITRA</span>
           <span class="ente-itra-sotto">International Technical<br>Rescue Association</span>
         </div>
-        <a href="../corsi/corsi.html">1 corso attivo</a>
+        <a href="page/corsi.html">1 corso attivo</a>
       </div>
 
     </div>
@@ -191,7 +191,7 @@
             </div>
           </div>
 
-          <a href="../corsi/corsi.html" class="btn-scopri">Scopri di più &rarr;</a>
+          <a href="page/corsi.html" class="btn-scopri">Scopri di più &rarr;</a>
         </div>
 
         <div class="chi-siamo-features">
@@ -303,19 +303,19 @@
   <!-- Ogni file JS si occupa solo di UNA parte della pagina.
        "stato.js" va per primo (contiene le variabili condivise),
        "main.js" va per ultimo (scarica i dati e avvia tutto) -->
-  <script src="home_js/stato.js"></script>
-  <script src="home_js/navbar.js"></script>
-  <script src="home_js/inizio.js"></script>
-  <script src="home_js/corsi.js"></script>
-  <script src="home_js/corsi-griglia.js"></script>
-  <script src="home_js/calendario.js"></script>
-  <script src="home_js/calendario-griglia.js"></script>
-  <script src="home_js/schede.js"></script>
-  <script src="home_js/news.js"></script>
-  <script src="home_js/social.js"></script>
-  <script src="home_js/sede.js"></script>
-  <script src="home_js/testo-finale.js"></script>
-  <script src="home_js/footer.js"></script>
-  <script src="home_js/main.js"></script>
+  <script src="js/index-stato.js"></script>
+  <script src="js/index-navbar.js"></script>
+  <script src="js/index-inizio.js"></script>
+  <script src="js/index-corsi.js"></script>
+  <script src="js/index-corsi-griglia.js"></script>
+  <script src="js/index-calendario.js"></script>
+  <script src="js/index-calendario-griglia.js"></script>
+  <script src="js/index-schede.js"></script>
+  <script src="js/index-news.js"></script>
+  <script src="js/index-social.js"></script>
+  <script src="js/index-sede.js"></script>
+  <script src="js/index-testo-finale.js"></script>
+  <script src="js/index-footer.js"></script>
+  <script src="js/index-main.js"></script>
 </body>
 </html>

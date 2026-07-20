@@ -93,7 +93,7 @@ function mostraNews(dati) {
       "background-size: cover; background-position: center;";
 
     htmlGriglia += `
-      <a class="news-card" href="../corso/corso.html?id=${corso.id}">
+      <a class="news-card" href="page/corso.html?id=${corso.id}">
         <div class="news-img" style="${stileImmagine}">
           <span class="news-badge" style="background:${infoCategoria.colore};">${infoCategoria.nome}</span>
           <h3 class="news-title">${corso.titolo}</h3>

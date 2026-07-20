@@ -1,10 +1,10 @@
 // ==========================================================
 // MAIN.JS
 // Ultimo file caricato: scarica il JSON con i dati e chiama
-// le funzioni che riempiono navbar, scheda contatti e social
+// in ordine tutte le funzioni che riempiono la pagina
 // ==========================================================
 
-const JSON_PATH = "../data/dvformazione_data.json";
+const JSON_PATH = "../dati/dvformazione_data.json";
 
 // fetch scarica il file JSON. Restituisce una "promessa" (Promise):
 // il risultato non è pronto subito, quindi con .then(...) diciamo
@@ -17,9 +17,16 @@ fetch(JSON_PATH)
     return risposta.json();
   })
   .then(function (dati) {
+    const corso = trovaCorsoCorrente(dati);
+
     mostraLogo(dati.sito);
-    mostraContattiInfo(dati);
-    mostraSocialContatti(dati);
+    mostraBannerCorso(corso);
+    mostraDescrizioneCorso(corso);
+    mostraElenco("#corsoObiettiviWrap", "#corsoObiettivi", corso.obiettivi);
+    mostraElenco("#corsoDestinatariWrap", "#corsoDestinatari", corso.destinatari);
+    mostraCorsoSessioni(corso);
+    mostraSidebarCorso(corso);
+    mostraFooter(dati);
   })
   .catch(function (errore) {
     console.error("Errore nel caricamento dei dati:", errore.message);

@@ -4,7 +4,7 @@
 // le funzioni che riempiono navbar, banner ed elenco enti
 // ==========================================================
 
-const JSON_PATH = "../data/dvformazione_data.json";
+const JSON_PATH = "../dati/dvformazione_data.json";
 
 // fetch scarica il file JSON. Restituisce una "promessa" (Promise):
 // il risultato non è pronto subito, quindi con .then(...) diciamo

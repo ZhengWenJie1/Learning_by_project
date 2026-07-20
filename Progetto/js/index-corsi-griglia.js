@@ -48,7 +48,7 @@ function mostraGrigliaCorsi(corsi) {
       : "📍 Torino – su richiesta";
 
     htmlGriglia += `
-      <a href="../corso/corso.html?id=${corso.id}" class="course-card">
+      <a href="page/corso.html?id=${corso.id}" class="course-card">
         <div class="img" style="background-image:url('${immagine}');">
           ${etichettaNuovo}
           <span class="badge" style="background:${infoCategoria.colore};">${infoCategoria.nome}</span>
