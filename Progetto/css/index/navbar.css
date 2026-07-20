@@ -7,7 +7,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 14px 30px;
   border-bottom: 1px solid #eee;
   position: sticky;
@@ -58,6 +58,7 @@
   border: 1px solid #ddd;
   border-radius: 20px;
   padding: 6px 14px;
+  margin-left: auto;
 }
 .nav-search-input {
   border: none;
@@ -93,5 +94,8 @@
   .navbar nav a {
     margin: 0 8px;
     display: inline-block;
+  }
+  .nav-search-wrap {
+    margin-left: 0;
   }
 }
