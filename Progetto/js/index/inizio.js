@@ -11,7 +11,7 @@
 // cambiare i valori.
 const inizioSlides = [
   {
-    immagine: "https://www.dvformazione.it/img/carosello-dinamiche-verticali/centro-struttura-con-passatoia.jpg",
+    immagine: "./image/index_hero.jpg",
     eyebrowContenuto: "",
     eyebrowBottoni: "Novità - calendario 2026",
     titolo: 'Formazione in altezza.<br><span class="inizio-arancio">Certificazioni</span> riconosciute.',
@@ -22,7 +22,7 @@ const inizioSlides = [
     ]
   },
   {
-    immagine: "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-1.jpg",
+    immagine: "./image/gwo_hero.webp",
     eyebrowContenuto: "Novità",
     eyebrowBottoni: "",
     titolo: '<span class="inizio-arancio">ITRA</span> - Soccorso Tecnico',
@@ -32,7 +32,7 @@ const inizioSlides = [
     ]
   },
   {
-    immagine: "https://www.dvformazione.it/img/carosello-dinamiche-verticali/corsista-2.jpg",
+    immagine: "./image/irata_hero.webp",
     eyebrowContenuto: "Novità",
     eyebrowBottoni: "",
     titolo: '<span class="inizio-arancio">IRATA</span> - Accesso su fune',

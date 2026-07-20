@@ -1,0 +1,29 @@
+/* ==========================================================
+   CONTENUTO.CSS
+   Stili per le sezioni di testo nella colonna principale:
+   titoli, paragrafi ed elenchi puntati
+   ========================================================== */
+
+.blocco-testo {
+  margin-bottom: 34px;
+}
+.blocco-testo h2 {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 12px;
+}
+.blocco-testo p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+}
+.blocco-testo ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+.blocco-testo ul li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 4px;
+}

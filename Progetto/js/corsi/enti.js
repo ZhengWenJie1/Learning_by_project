@@ -38,7 +38,7 @@ const listaEnti = [
       { testo: "Revisioni Periodiche DPI Petzl", link: "corso.html?id=pti-revisioni-periodiche" },
       { testo: "Modulo rivenditori PRO L1-L2-L3", link: "corso.html?id=pti-rivenditori-pro-1" }
     ],
-    link: "ente.html?sigla=PTI"
+    link: "pti.html"
   },
   {
     logo: "https://www.dvformazione.it/img/loghi/logo-global-wind-organisation.jpg",

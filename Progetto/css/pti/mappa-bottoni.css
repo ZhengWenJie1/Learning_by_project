@@ -1,0 +1,33 @@
+/* ==========================================================
+   MAPPA-BOTTONI.CSS
+   Stile della mappa (un iframe di Google Maps) e dei bottoni
+   con solo il bordo, usati nel contenuto della pagina
+   ========================================================== */
+
+.mappa-box {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.mappa-box iframe {
+  width: 100%;
+  height: 260px;
+  border: 0;
+  display: block;
+}
+
+.btn-bordo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1.5px solid var(--dark);
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+.btn-bordo:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
