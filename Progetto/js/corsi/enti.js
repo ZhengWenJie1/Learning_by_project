@@ -79,7 +79,7 @@ function creaCardEnte(ente) {
   return `
     <div class="ente-card">
       <div class="ente-logo">
-        <img src="${ente.logo}" alt="${ente.nome}">
+        <img src="${ente.logo}" alt="${ente.nome}" loading="lazy" decoding="async">
       </div>
       <div class="ente-testo">
         <h2>${ente.nome}</h2>

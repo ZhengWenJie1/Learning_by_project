@@ -60,11 +60,11 @@ function mostraGrigliaCorsi(corsi) {
           <p class="descrizione">${corso.descrizione || ""}</p>
           <div class="powered-da">
             Powered by
-            <img src="${infoCategoria.logo}" alt="${infoCategoria.nome}">
+            <img src="${infoCategoria.logo}" alt="${infoCategoria.nome}" loading="lazy" decoding="async">
           </div>
           <div class="meta">
-            <span><img src="image/icons/clock.png" alt="">${corso.durata || "-"}</span>
-            <span><img src="image/icons/calendar.png" alt="">${testoSessioni}</span>
+            <span><img src="image/icons/clock.png" alt="" loading="lazy" decoding="async">${corso.durata || "-"}</span>
+            <span><img src="image/icons/calendar.png" alt="" loading="lazy" decoding="async">${testoSessioni}</span>
           </div>
         </div>
       </a>

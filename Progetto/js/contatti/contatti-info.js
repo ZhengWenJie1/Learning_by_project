@@ -48,7 +48,7 @@ function mostraContattiInfo(dati) {
   if (contatti.referente) {
     const referente = contatti.referente;
     boxReferente.innerHTML = `
-      <img src="${referente.foto || ""}" alt="${referente.nome}">
+      <img src="${referente.foto || ""}" alt="${referente.nome}" loading="lazy" decoding="async">
       <div>
         <strong>${referente.nome}</strong>
         <span>${referente.ruolo}</span>

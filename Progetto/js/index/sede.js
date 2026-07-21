@@ -24,7 +24,7 @@ function mostraSede(dati) {
     let htmlGalleria = "";
     immaginiSede.forEach(function (immagine) {
       if (immagine) {
-        htmlGalleria += `<div class="g-item"><img src="${immagine}" alt="Sede Dinamiche Verticali"></div>`;
+        htmlGalleria += `<div class="g-item"><img src="${immagine}" alt="Sede Dinamiche Verticali" loading="lazy" decoding="async"></div>`;
       }
     });
     galleria.innerHTML = htmlGalleria;
@@ -41,7 +41,7 @@ function mostraSede(dati) {
       if (recensione) {
         htmlRecensioni += `
           <div class="recensione-card">
-            <img src="${recensione.immagine || ""}" alt="${recensione.autore}">
+            <img src="${recensione.immagine || ""}" alt="${recensione.autore}" loading="lazy" decoding="async">
             <p>&ldquo;${recensione.testo}&rdquo;</p>
             <div class="autore">${recensione.autore}</div>
           </div>

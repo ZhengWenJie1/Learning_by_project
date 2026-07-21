@@ -38,7 +38,7 @@ function mostraFormatoriEnte(ente) {
     ente.formatori.forEach(function (formatore) {
       html += `
         <div class="formatore-card">
-          <img src="${formatore.foto || ""}" alt="${formatore.nome}">
+          <img src="${formatore.foto || ""}" alt="${formatore.nome}" loading="lazy" decoding="async">
           <div class="nome">${formatore.nome}</div>
           <div class="ruolo">${formatore.ruolo || ""}</div>
         </div>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Pagine principali -->
+  <url>
+    <loc>https://www.dvformazione.it/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/corsi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/news.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/contatti.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Pagine di certificazione -->
+  <url>
+    <loc>https://www.dvformazione.it/page/gwo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/irata.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/pti.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Enti certificatori (pagina dinamica ente.html?sigla=...) -->
+  <url>
+    <loc>https://www.dvformazione.it/page/ente.html?sigla=PTI</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/ente.html?sigla=IRATA</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.dvformazione.it/page/ente.html?sigla=GWO</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Corsi (pagina dinamica corso.html?id=...) -->
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=irata-l1-l2-l3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=gwo-bst</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-revisioni-periodiche</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-aggiornamento-revisioni</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-rivenditori-pro-1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-rivenditori-pro-2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-rivenditori-pro-3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-jag-rescue</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-lezard-iguane</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=pti-prusik-zig-zag</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=fune-modulo-a</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=lavori-in-quota-dpi-iii</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=soccorso-dpi-e1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=accreditato-formatori-istruttori</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dvformazione.it/page/corso.html?id=accreditato-gestione-emergenze</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+</urlset>

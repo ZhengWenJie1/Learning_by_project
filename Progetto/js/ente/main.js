@@ -20,6 +20,7 @@ fetch(JSON_PATH)
     const ente = trovaEnteCorrente(dati);
 
     mostraLogo(dati.sito);
+    mostraSeoEnte(ente);
     mostraBannerEnte(ente, dati);
     mostraDescrizioneEnte(ente);
     mostraDestinatariEnte(ente);

@@ -22,7 +22,7 @@ function mostraSocial(social) {
       if (url) {
         htmlRiga += `
           <a href="${url}" target="_blank" rel="noopener">
-            <span class="icon"><img src="${rete.icona}" alt="${rete.etichetta}"></span> ${rete.etichetta}
+            <span class="icon"><img src="${rete.icona}" alt="${rete.etichetta}" loading="lazy" decoding="async"></span> ${rete.etichetta}
           </a>
         `;
       }

@@ -20,6 +20,7 @@ fetch(JSON_PATH)
     const corso = trovaCorsoCorrente(dati);
 
     mostraLogo(dati.sito);
+    mostraSeoCorso(corso);
     mostraBannerCorso(corso);
     mostraDescrizioneCorso(corso);
     mostraElenco("#corsoObiettiviWrap", "#corsoObiettivi", corso.obiettivi);

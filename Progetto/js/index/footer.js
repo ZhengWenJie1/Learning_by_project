@@ -39,7 +39,7 @@ function mostraFooter(dati) {
     let htmlSocial = "";
     voci.forEach(function (voce) {
       if (voce.url) {
-        htmlSocial += `<a href="${voce.url}" target="_blank" rel="noopener"><img src="${voce.icona}" alt="${voce.etichetta}"></a>`;
+        htmlSocial += `<a href="${voce.url}" target="_blank" rel="noopener"><img src="${voce.icona}" alt="${voce.etichetta}" loading="lazy" decoding="async"></a>`;
       }
     });
     footerSocial.innerHTML = htmlSocial;
