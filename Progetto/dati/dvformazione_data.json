@@ -114,25 +114,38 @@
         {
           "nome": "Giuseppe Barucco",
           "ruolo": "Formatore PTI - Guida Alpina",
-          "lingue": ["IT", "FR"],
+          "lingue": [
+            "IT",
+            "FR"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/giuseppe-barucco-formatore.jpg"
         },
         {
           "nome": "Michele Perotti",
           "ruolo": "Formatore PTI - Guida Alpina",
-          "lingue": ["IT", "EN", "FR"],
+          "lingue": [
+            "IT",
+            "EN",
+            "FR"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/michele-perotti-formatore.jpg"
         },
         {
           "nome": "Alberto Fantone",
           "ruolo": "Formatore PTI - Guida Alpina",
-          "lingue": ["IT", "FR"],
+          "lingue": [
+            "IT",
+            "FR"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/alberto-fantone-formatore.jpg"
         },
         {
           "nome": "Luigi Gagliardi",
           "ruolo": "Formatore PTI - Guida Alpina",
-          "lingue": ["IT", "EN"],
+          "lingue": [
+            "IT",
+            "EN"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/luigi-gagliardi-formatore.jpg"
         }
       ]
@@ -166,13 +179,18 @@
         {
           "nome": "Diego Maltenti",
           "ruolo": "IRATA Technical Authority, IRATA L3/i",
-          "lingue": ["IT", "EN"],
+          "lingue": [
+            "IT",
+            "EN"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore.jpg"
         },
         {
           "nome": "Franco Bignami",
           "ruolo": "IRATA L3/i",
-          "lingue": ["IT"],
+          "lingue": [
+            "IT"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/franco-bignami-formatore.jpg"
         }
       ]
@@ -199,7 +217,10 @@
         {
           "nome": "Diego Maltenti",
           "ruolo": "Formatore GWO",
-          "lingue": ["IT", "EN"],
+          "lingue": [
+            "IT",
+            "EN"
+          ],
           "foto": "https://www.dvformazione.it/img/formatori/diego-maltenti-formatore.jpg"
         }
       ]
@@ -229,7 +250,11 @@
       "orario": "9.00-17.30",
       "validita_attestato": "3 anni",
       "quota_iscrizione": "1.000€+IVA",
-      "sessioni_prossime": ["31/08/2026", "21/09/2026", "19/10/2026"],
+      "sessioni_prossime": [
+        "31/08/2026",
+        "21/09/2026",
+        "19/10/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/6_sito-6.jpg",
         "https://admin.dvformazione.it/content/images/product/6_schermata-2023-06-14-alle-15-19-21.jpg"
@@ -245,13 +270,17 @@
         "Consentire ai partecipanti di sostenere e prendersi cura di sé e degli altri nel settore eolico, con conoscenze di primo soccorso, lavoro in quota, movimentazione manuale, consapevolezza degli incendi e capacità di evacuazione/soccorso in emergenza"
       ],
       "contenuti": "Vedi dettaglio programmi FA; WAH; MH; FAW",
-      "destinatari": ["Tutti coloro che vogliono lavorare nel settore eolico"],
+      "destinatari": [
+        "Tutti coloro che vogliono lavorare nel settore eolico"
+      ],
       "prerequisiti": "Maggiorenni e in buono stato di salute",
       "durata": "4 giorni",
       "orario": "9.00-17.30",
       "validita_attestato": "2 anni",
       "quota_iscrizione": "1.100€+IVA",
-      "sessioni_prossime": ["19/10/2026"],
+      "sessioni_prossime": [
+        "19/10/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/20_sito-20.jpg",
         "https://admin.dvformazione.it/content/images/product/20_01-utilisation-de-lasap-par-grand-vent.jpg"
@@ -290,7 +319,11 @@
       "orario": "9.00-17.00",
       "validita_attestato": "3 anni",
       "quota_iscrizione": "850€+IVA",
-      "sessioni_prossime": ["22/07/2026", "09/09/2026", "21/10/2026"],
+      "sessioni_prossime": [
+        "22/07/2026",
+        "09/09/2026",
+        "21/10/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/7_sito-10.jpg",
         "https://admin.dvformazione.it/content/images/product/7_schermata-2023-06-16-alle-15-54-53.jpg"
@@ -314,13 +347,19 @@
         "Presentazione e corretto utilizzo del protocollo Petzl",
         "Verifica prima dell'utilizzo, ispezioni speciali, verifica approfondita, segnali e sintomi, criteri per la messa fuori servizio"
       ],
-      "destinatari": ["Persone designate responsabili delle verifiche approfondite dei DPI, che hanno già completato il modulo 'Revisioni Periodiche DPI Petzl'"],
+      "destinatari": [
+        "Persone designate responsabili delle verifiche approfondite dei DPI, che hanno già completato il modulo 'Revisioni Periodiche DPI Petzl'"
+      ],
       "prerequisiti": "Esperienza pratica nel mondo della verticalità e delle attrezzature contro le cadute dall'alto; aver superato il modulo 'Revisioni Periodiche DPI Petzl'",
       "durata": "8 ore (1 giorno)",
       "orario": "9.00-17.30",
       "validita_attestato": "3 anni",
       "quota_iscrizione": "275€+IVA",
-      "sessioni_prossime": ["21/07/2026", "08/09/2026", "13/10/2026"],
+      "sessioni_prossime": [
+        "21/07/2026",
+        "08/09/2026",
+        "13/10/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/8_sito-8.jpg",
         "https://admin.dvformazione.it/content/images/product/8_preview-01.jpg"
@@ -356,7 +395,9 @@
       "orario": "9.00-17.30",
       "validita_attestato": "3 anni",
       "quota_iscrizione": "275€+IVA",
-      "sessioni_prossime": ["22/09/2026"],
+      "sessioni_prossime": [
+        "22/09/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/9_sito-7.jpg",
         "https://admin.dvformazione.it/content/images/product/9_disegno-rev-pro-1.jpg"
@@ -389,7 +430,9 @@
       "orario": "9.30-17.30",
       "validita_attestato": "3 anni",
       "quota_iscrizione": "275€+IVA",
-      "sessioni_prossime": ["23/09/2026"],
+      "sessioni_prossime": [
+        "23/09/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/10_sito-18.jpg",
         "https://admin.dvformazione.it/content/images/product/10_disegno-rev-pro-2.jpg"
@@ -422,7 +465,9 @@
       "orario": "9.00-17.30",
       "validita_attestato": "3 anni",
       "quota_iscrizione": "550€+IVA",
-      "sessioni_prossime": ["24/09/2026"],
+      "sessioni_prossime": [
+        "24/09/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/11_sito-4.jpg",
         "https://admin.dvformazione.it/content/images/product/11_dessin-acces-sur-corde-rev-3.jpg"
@@ -512,7 +557,12 @@
         "Esercizi pratici in accesso e movimentazione in pianta, confronto con il nodo di Prusik",
         "Dimostrazione delle tecniche di soccorso"
       ],
-      "destinatari": ["Arboristi", "Rete commerciale specializzata", "Rivenditori DPI Petzl", "Petzl Technical Partners"],
+      "destinatari": [
+        "Arboristi",
+        "Rete commerciale specializzata",
+        "Rivenditori DPI Petzl",
+        "Petzl Technical Partners"
+      ],
       "prerequisiti": "Padronanza delle basi della potatura su corda",
       "durata": "8 ore (1 giorno)",
       "orario": "9.00-17.30",
@@ -544,13 +594,17 @@
         "Procedure Operative",
         "Procedure di Salvataggio"
       ],
-      "destinatari": ["Tutti gli addetti operativi, artigiani, professionisti"],
+      "destinatari": [
+        "Tutti gli addetti operativi, artigiani, professionisti"
+      ],
       "prerequisiti": "Maggiorenni e in buono stato di salute",
       "durata": "32 ore (4 giorni)",
       "orario": "9.00-17.30",
       "validita_attestato": "5 anni",
       "quota_iscrizione": "800€+IVA",
-      "sessioni_prossime": ["28/09/2026"],
+      "sessioni_prossime": [
+        "28/09/2026"
+      ],
       "note": "Nel form 'richiedi informazioni' compaiono anche i corsi correlati 'Aggiornamento lavoratori addetti ai sistemi di accesso e posizionamento mediante funi' e 'Preposti con funzioni di sorveglianza dei lavori temporanei in quota mediante funi', non presenti come schede singole",
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/4_fune-formazione-modulo-a-accesso-corso-dpi-italia-torino-nord.jpg",
@@ -587,9 +641,11 @@
       "orario": "9.00-17.30",
       "validita_attestato": "5 anni",
       "quota_iscrizione": "550€+IVA",
-      "sessioni_prossime": ["22/09/2026"],
+      "sessioni_prossime": [
+        "22/09/2026"
+      ],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/17_schermata-2023-10-25-alle-15-19-51.jpg",
+        "image/struttura_passatoia.avif",
         "https://admin.dvformazione.it/content/images/product/17_disegno-rev-pro-1.jpg"
       ]
     },
@@ -611,7 +667,9 @@
         "Cenni sulla patologia da sospensione e conseguente gestione delle emergenze in quota",
         "Addestramento all'uso dei DPI in funzione delle problematiche lavorative in quota aziendali ed alla gestione dell'emergenza"
       ],
-      "destinatari": ["Lavoratori autonomi, lavoratori dipendenti e professionisti o personale di ispezione soggetti a rischio di caduta dall'alto, utilizzando DPI di posizionamento e sistemi anticaduta"],
+      "destinatari": [
+        "Lavoratori autonomi, lavoratori dipendenti e professionisti o personale di ispezione soggetti a rischio di caduta dall'alto, utilizzando DPI di posizionamento e sistemi anticaduta"
+      ],
       "prerequisiti": "Aver seguito i moduli DPI A1",
       "durata": "8 ore (1 giorno)",
       "orario": "9.00-17.30",
@@ -619,7 +677,7 @@
       "quota_iscrizione": "275€+IVA",
       "sessioni_prossime": [],
       "immagini": [
-        "https://admin.dvformazione.it/content/images/product/25_schermata-2023-10-25-alle-15-19-30.jpg",
+        "image/scalata_1.webp",
         "https://admin.dvformazione.it/content/images/product/25_foto-fune.jpg"
       ]
     },
@@ -655,7 +713,9 @@
       "durata": "16 ore (2 giorni)",
       "orario": "9.00-17.30",
       "quota_iscrizione": "700€+IVA",
-      "sessioni_prossime": ["14/09/2026"],
+      "sessioni_prossime": [
+        "14/09/2026"
+      ],
       "immagini": [
         "https://admin.dvformazione.it/content/images/product/29_sito.jpg",
         "https://admin.dvformazione.it/content/images/product/29_screenshot-2024-03-12-alle-12-01-24.jpg"

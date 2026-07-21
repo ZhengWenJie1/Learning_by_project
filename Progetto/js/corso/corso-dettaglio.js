@@ -40,7 +40,7 @@ function trovaCorsoCorrente(dati) {
 function mostraCorsoTesta(corso, colore) {
   const immagineCorso = document.querySelector("#corsoImg");
   if (corso.immagini && corso.immagini[0]) {
-    immagineCorso.src = corso.immagini[0];
+    immagineCorso.src = corso.immagini[0].replace(/^image\//, "../image/");
     immagineCorso.alt = corso.titolo;
     immagineCorso.style.display = "block";
   }

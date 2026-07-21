@@ -28,7 +28,7 @@ function mostraDescrizioneCorso(corso) {
   document.querySelector("#corsoDescrizione").textContent = corso.descrizione || "";
 
   const immagine = document.querySelector("#corsoImg");
-  const seconda = (corso.immagini && corso.immagini[1]) || (corso.immagini && corso.immagini[0]);
+  const seconda = ((corso.immagini && corso.immagini[1]) || (corso.immagini && corso.immagini[0]) || "").replace(/^image\//, "../image/");
   if (seconda) {
     immagine.src = seconda;
     immagine.alt = corso.titolo;

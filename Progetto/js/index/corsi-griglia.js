@@ -50,7 +50,7 @@ function mostraGrigliaCorsi(corsi) {
         : `${sessioni.length} sessioni disponibili`;
 
     htmlGriglia += `
-      <a href="page/corso.html?id=${corso.id}" class="course-card">
+      <a href="page/corso.html?id=${corso.id}" class="course-card" title="${corso.titolo}">
         <div class="img" style="background-image:url('${immagine}');">
           ${etichettaNuovo}
           <span class="badge-ente">${infoCategoria.nome}</span>

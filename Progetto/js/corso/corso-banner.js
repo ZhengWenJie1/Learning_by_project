@@ -26,7 +26,7 @@ function trovaCorsoCorrente(dati) {
 // Disegna il banner in cima alla pagina, con foto di sfondo
 function mostraBannerCorso(corso) {
   const banner = document.querySelector("#banner");
-  const immagine = (corso.immagini && corso.immagini[0]) || "";
+  const immagine = ((corso.immagini && corso.immagini[0]) || "").replace(/^image\//, "../image/");
   if (immagine) {
     banner.style.backgroundImage = `url('${immagine}')`;
   }
