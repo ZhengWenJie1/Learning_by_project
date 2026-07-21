@@ -38,25 +38,34 @@ function mostraGrigliaCorsi(corsi) {
   corsiFiltrati.forEach(function (corso, indice) {
     const infoCategoria = categoriaInfo(corso.categoria);
     const immagine = (corso.immagini && corso.immagini[0]) || "";
-    const prossimaSessione = (corso.sessioni_prossime && corso.sessioni_prossime[0]) || null;
+    const sessioni = corso.sessioni_prossime || [];
     // Il punto interrogativo qui sotto è l'operatore ternario:
     // condizione ? "valore se vero" : "valore se falso".
     // È un if/else scritto in una riga sola.
     const etichettaNuovo = indice < 3 ? '<span class="badge-nuovo">Nuovo</span>' : "";
-    const testoData = prossimaSessione
-      ? `<img src="./image/icons/calendar.png" class="icon-inline" alt="">Prossima sessione: ${prossimaSessione}`
-      : "📍 Torino – su richiesta";
+    const testoSessioni = sessioni.length === 0
+      ? "Su richiesta"
+      : sessioni.length === 1
+        ? "1 sessione disponibile"
+        : `${sessioni.length} sessioni disponibili`;
 
     htmlGriglia += `
       <a href="page/corso.html?id=${corso.id}" class="course-card">
         <div class="img" style="background-image:url('${immagine}');">
           ${etichettaNuovo}
-          <span class="badge" style="background:${infoCategoria.colore};">${infoCategoria.nome}</span>
+          <span class="badge-ente">${infoCategoria.nome}</span>
         </div>
         <div class="info">
-          <div class="title">${corso.titolo}</div>
-          <div class="date">${testoData}</div>
-          <div class="powered">${corso.durata || ""}</div>
+          <div class="titolo">${corso.titolo}</div>
+          <p class="descrizione">${corso.descrizione || ""}</p>
+          <div class="powered-da">
+            Powered by
+            <img src="${infoCategoria.logo}" alt="${infoCategoria.nome}">
+          </div>
+          <div class="meta">
+            <span><img src="image/icons/clock.png" alt="">${corso.durata || "-"}</span>
+            <span><img src="image/icons/calendar.png" alt="">${testoSessioni}</span>
+          </div>
         </div>
       </a>
     `;
